@@ -1,0 +1,2 @@
+/catalogue/* /catalogue/:splat 200
+/services /services/ 301

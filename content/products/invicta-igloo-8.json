@@ -1,0 +1,21 @@
+{
+  "name": "Invicta Igloo 8",
+  "slug": "invicta-igloo-8",
+  "tagline": "French-made, no-nonsense heat",
+  "price": "KES 62,000",
+  "category": "Budget Pick",
+  "output": "8 kW",
+  "efficiency": "70%",
+  "roomSize": "Up to 70m²",
+  "fuelType": "Wood",
+  "origin": "France",
+  "description": "The Invicta Igloo is a robust, no-frills cast iron stove built for reliability over decades. A popular first stove for households making the switch from electric or gas heating. Straightforward to operate, easy to maintain, and backed by Rustic Glow's full installation and service warranty.",
+  "features": [
+    "Simple single-air control",
+    "Heavy cast iron body",
+    "Compatible with standard Kenyan chimneys",
+    "Stove feet included",
+    "5-year manufacturer warranty"
+  ],
+  "images": ["/images/products/placeholder-stove-3.jpg"]
+}
