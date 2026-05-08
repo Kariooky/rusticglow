@@ -2,7 +2,7 @@
   "name": "Jøtul F 305",
   "slug": "jotul-f305",
   "tagline": "Scandinavian precision, African warmth",
-  "price": "KES 85,000",
+  "price": "KES 150,000",
   "category": "Cast Iron",
   "output": "7 kW",
   "efficiency": "73%",
@@ -17,5 +17,5 @@
     "Top or rear flue outlet",
     "Accepts logs up to 33cm"
   ],
-  "images": ["/images/products/placeholder-stove-1.jpg"]
+  "images": ["/images/products/stove-1.jpeg"]
 }
