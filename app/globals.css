@@ -189,3 +189,39 @@ h1, h2, h3, h4 {
  color: var(--brand);
  border-bottom-color: var(--brand);
 }
+@media (max-width: 768px) {
+
+  /* Hero — pull content up */
+  .hero-content {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
+  }
+
+  /* Trust badges — 2 per row */
+  .hero-badges {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem !important;
+  }
+
+  /* Why us cards — single column */
+  .why-us-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Product grid — single column */
+  .product-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Services strip — single column */
+  .services-strip-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* CTA banner — stack vertically */
+  .cta-banner {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}

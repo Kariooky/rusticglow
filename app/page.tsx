@@ -53,7 +53,7 @@ export default function HomePage() {
           pointerEvents: 'none',
         }} />
 
-        <div className="container" style={{ position: 'relative', zIndex: 2, padding: '120px 1.5rem 80px' }}>
+        <div className="container hero-content" style={{ position: 'relative', zIndex: 2, padding: '120px 1.5rem 80px' }}>
           <div style={{ maxWidth: 640 }}>
             <p className="hero-fade-1" style={{
               fontFamily: 'var(--font-body)', fontSize: '0.75rem', fontWeight: 700,
@@ -92,7 +92,7 @@ export default function HomePage() {
             </div>
 
             {/* Trust badges */}
-            <div className="hero-fade-5" style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', marginTop: '3rem' }}>
+            <div className="hero-fade-5 hero-badges" style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', marginTop: '3rem' }}>
               {[
                 { icon: <EuropeIcon />, text: 'European imports' },
                 { icon: <WrenchIcon />, text: 'Professional installation' },
@@ -128,7 +128,7 @@ export default function HomePage() {
               We don&apos;t just sell stoves. We assess your space, handle the installation, and come back to keep it running perfectly.
             </p>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem' }}>
+          <div className="why-us-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem' }}>
             {[
               { icon: <BoxIcon />,     title: 'Curated Imports',      desc: 'Every stove is hand-picked from proven European manufacturers — Jøtul, Morsø, Invicta. Quality-checked before it reaches you.' },
               { icon: <WrenchIcon />,  title: 'Expert Installation',  desc: 'Our team handles everything from site assessment to chimney fitting. Done right the first time, with a full safety check.' },
@@ -158,7 +158,7 @@ export default function HomePage() {
             </div>
             <Link href="/catalogue" className="btn-outline">View all stoves →</Link>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
+          <div className="product-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
             {products.map(p => <ProductCard key={p.slug} product={p} />)}
           </div>
         </div>
@@ -171,7 +171,7 @@ export default function HomePage() {
             <p className="section-eyebrow">What we do</p>
             <h2 className="section-title" style={{ color: '#fff' }}>More than just a stove</h2>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
+          <div className="services-strip-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             {[
               { title: 'Installation',           desc: 'Site survey, flue routing, hearth prep and full stove commissioning. We leave nothing half-done.',                                    service: 'Installation' },
               { title: 'Chimney Cleaning',        desc: 'Annual sweeps to clear creosote buildup and maintain draught. Essential for safety and efficiency.',                                 service: 'Chimney Cleaning' },
@@ -197,7 +197,7 @@ export default function HomePage() {
 
       {/* ── CTA BANNER ── */}
       <section className="section-sm" style={{ background: 'var(--brand)' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1.5rem' }}>
+        <div className="container cta-banner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1.5rem' }}>
           <div>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', color: '#fff', marginBottom: '0.4rem' }}>
               Ready to bring the warmth home?
