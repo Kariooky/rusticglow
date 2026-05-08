@@ -6,10 +6,10 @@
   "category": "Cast Iron",
   "output": "7 kW",
   "efficiency": "73%",
-  "roomSize": "Up to 60m²",
+  "roomSize": "Up to 80m²",
   "fuelType": "Wood",
-  "origin": "Norway",
-  "description": "The Jøtul F 305 is a classic cast iron stove with clean Scandinavian lines and exceptional heat retention. Once fired up, the dense cast iron absorbs heat and radiates it steadily for hours — even after the fire dies down. Perfect for Nairobi highland evenings and cold seasons upcountry.",
+  "type": "Chimney Insert",
+  "description": "This is a classic cast iron stove with clean Scandinavian lines and exceptional heat retention. Once fired up, the dense cast iron absorbs heat and radiates it steadily for hours — even after the fire dies down. Perfect for Nairobi highland evenings and cold seasons upcountry.",
   "features": [
     "Large glass door for flame viewing",
     "Cast iron construction for long heat retention",
@@ -17,5 +17,5 @@
     "Top or rear flue outlet",
     "Accepts logs up to 33cm"
   ],
-  "images": ["/images/products/stove-1.jpeg"]
+  "images": ["/images/products/stove-3.jpeg"]
 }

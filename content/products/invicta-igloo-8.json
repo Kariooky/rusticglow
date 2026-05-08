@@ -7,14 +7,14 @@
   "efficiency": "70%",
   "roomSize": "Up to 70m²",
   "fuelType": "Wood",
-  "origin": "France",
-  "description": "The Invicta Igloo is a robust, no-frills cast iron stove built for reliability over decades. A popular first stove for households making the switch from electric or gas heating. Straightforward to operate, easy to maintain, and backed by Rustic Glow's full installation and service warranty.",
+  "type": "Standalone",
+  "description": "This is a robust, no-frills cast iron stove built for reliability over decades. A popular first stove for households making the switch from electric or gas heating. Straightforward to operate, easy to maintain, and backed by Rustic Glow's full installation and service warranty.",
   "features": [
     "Simple single-air control",
     "Heavy cast iron body",
-    "Compatible with standard Kenyan chimneys",
+    "Ceramic glass door",
     "Stove feet included",
     "5-year manufacturer warranty"
   ],
-  "images": ["/images/products/stove-3.jpeg"]
+  "images": ["/images/products/stove-1.jpeg"]
 }

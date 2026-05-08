@@ -11,7 +11,7 @@ export interface Product {
   efficiency: string
   roomSize: string
   fuelType: string
-  origin: string
+  type: string
   description: string
   features: string[]
   images: string[]

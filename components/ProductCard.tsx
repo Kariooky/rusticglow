@@ -71,7 +71,7 @@ export default function ProductCard({ product }: Props) {
             padding: '4px 10px',
             borderRadius: 3,
           }}>
-            {product.origin}
+            {product.type}
           </div>
         </div>
       </Link>
