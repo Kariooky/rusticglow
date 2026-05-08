@@ -7,7 +7,7 @@ export interface Product {
   tagline: string
   price: string
   category: string
-  output: string
+  weight: string
   efficiency: string
   roomSize: string
   fuelType: string

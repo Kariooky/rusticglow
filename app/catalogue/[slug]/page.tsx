@@ -126,7 +126,7 @@ export default async function ProductPage({ params }: Props) {
                 overflow: 'hidden', marginBottom: '1.75rem',
               }}>
                 {[
-                  { label: 'Output',    value: product.output },
+                  { label: 'Weight',    value: product.weight },
                   { label: 'Efficiency',value: product.efficiency },
                   { label: 'Room size', value: product.roomSize },
                   { label: 'Fuel',      value: product.fuelType },

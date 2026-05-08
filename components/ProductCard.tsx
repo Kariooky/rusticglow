@@ -88,7 +88,7 @@ export default function ProductCard({ product }: Props) {
         {/* Specs row */}
         <div style={{ display: 'flex', gap: 16, margin: '4px 0' }}>
           {[
-            { label: 'Output', value: product.output },
+            { label: 'Weight', value: product.weight },
             { label: 'Efficiency', value: product.efficiency },
             { label: 'Room', value: product.roomSize },
           ].map(spec => (
