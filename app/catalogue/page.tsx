@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Stove Catalogue | Rustic Glow Kenya',
-  description: 'Browse our curated selection of premium European woodstoves available in Kenya. Cast iron stoves from Jøtul, Morsø, Invicta and more.',
+  description: 'Browse our curated selection of premium woodstoves available in Kenya. Cast iron stoves from Jøtul, Morsø, Invicta and more.',
 }
 
 export default function CataloguePage() {

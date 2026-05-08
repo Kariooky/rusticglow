@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Services | Rustic Glow Kenya',
-  description: 'Professional woodstove installation, chimney cleaning and maintenance across Kenya. Nairobi and upcountry coverage.',
+  description: 'Professional woodstove installation, chimney cleaning and maintenance across Kenya and East Africa.',
 }
 
 const services = [
@@ -20,7 +20,7 @@ const services = [
       { step: '03', title: 'Chimney & Flue Installation',desc: 'We install the twin-wall flue system or connect to an existing masonry chimney, ensuring correct draught and clearances.' },
       { step: '04', title: 'Stove Fitting & Commissioning',desc: 'The stove is positioned, connected to the flue, and test-fired. We walk you through operation, airwash, and ash management.' },
     ],
-    note: 'All installations include a 12-month workmanship warranty. We carry Kenya Bureau of Standards compliant components.',
+    note: 'All installations include a 12-month workmanship warranty.',
   },
   {
     id: 'chimney-cleaning',
