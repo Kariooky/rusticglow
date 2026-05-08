@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 
 interface Props {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -13,7 +13,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const product = getProductBySlug(params.slug)
+  const { slug } = await params
+  const product = getProductBySlug(slug)
   if (!product) return {}
   return {
     title: `${product.name} | Rustic Glow Kenya`,
@@ -21,8 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function ProductPage({ params }: Props) {
-  const product = getProductBySlug(params.slug)
+export default async function ProductPage({ params }: Props) {
+  const { slug } = await params
+  const product = getProductBySlug(slug)
   if (!product) notFound()
 
   const waLink = productEnquiryLink(product.name, product.price)
@@ -38,17 +40,9 @@ export default function ProductPage({ params }: Props) {
       }}>
         <div className="container">
           <nav style={{ display: 'flex', gap: 8, fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', flexWrap: 'wrap' }}>
-            <Link href="/" style={{ color: 'rgba(255,255,255,0.4)', transition: 'color 0.2s' }}
-              onMouseEnter={e => (e.currentTarget.style.color = 'var(--brand)')}
-              onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}>
-              Home
-            </Link>
+            <Link href="/" style={{ color: 'rgba(255,255,255,0.4)' }}>Home</Link>
             <span>/</span>
-            <Link href="/catalogue" style={{ color: 'rgba(255,255,255,0.4)', transition: 'color 0.2s' }}
-              onMouseEnter={e => (e.currentTarget.style.color = 'var(--brand)')}
-              onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}>
-              Catalogue
-            </Link>
+            <Link href="/catalogue" style={{ color: 'rgba(255,255,255,0.4)' }}>Catalogue</Link>
             <span>/</span>
             <span style={{ color: 'var(--brand)' }}>{product.name}</span>
           </nav>
@@ -77,13 +71,10 @@ export default function ProductPage({ params }: Props) {
                 position: 'relative',
                 overflow: 'hidden',
               }}>
-                {/* Placeholder flame icon */}
                 <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: 100, opacity: 0.25 }}>
                   <path d="M60 10C60 10 30 40 30 75C30 98 43.4 118 60 118C76.6 118 90 98 90 75C90 52 72 38 72 38C72 38 70 58 61 65C61 65 68 50 60 10Z" fill="#c45900"/>
                   <path d="M60 65C60 65 45 76 45 86C45 97.6 51.8 108 60 108C68.2 108 75 97.6 75 86C75 76 60 65 60 65Z" fill="#fd7700"/>
                 </svg>
-
-                {/* Category badge */}
                 <div style={{
                   position: 'absolute', top: 16, left: 16,
                   background: 'var(--warmth)', color: 'var(--charcoal)',
@@ -93,7 +84,6 @@ export default function ProductPage({ params }: Props) {
                 }}>
                   {product.category}
                 </div>
-
                 <div style={{
                   position: 'absolute', top: 16, right: 16,
                   background: 'var(--brand)', color: '#fff',
@@ -102,8 +92,6 @@ export default function ProductPage({ params }: Props) {
                 }}>
                   {product.origin}
                 </div>
-
-                {/* Replace image note */}
                 <p style={{
                   position: 'absolute', bottom: 16, left: 0, right: 0,
                   textAlign: 'center', fontSize: '0.72rem',
@@ -119,45 +107,33 @@ export default function ProductPage({ params }: Props) {
               <p style={{ fontSize: '0.8rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--brand)', marginBottom: '0.5rem' }}>
                 {product.category} · {product.origin}
               </p>
-
               <h1 style={{
                 fontFamily: 'var(--font-display)',
                 fontSize: 'clamp(1.8rem, 4vw, 2.6rem)',
-                color: 'var(--dark-wood)',
-                marginBottom: '0.4rem',
-                lineHeight: 1.15,
+                color: 'var(--dark-wood)', marginBottom: '0.4rem', lineHeight: 1.15,
               }}>
                 {product.name}
               </h1>
-
               <p style={{ fontSize: '1rem', color: 'var(--ash)', fontStyle: 'italic', marginBottom: '1.5rem' }}>
                 {product.tagline}
               </p>
 
               {/* Specs grid */}
               <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
-                gap: '1px',
-                background: 'var(--birch)',
-                border: '1px solid var(--birch)',
-                borderRadius: 6,
-                overflow: 'hidden',
-                marginBottom: '1.75rem',
+                display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)',
+                gap: '1px', background: 'var(--birch)',
+                border: '1px solid var(--birch)', borderRadius: 6,
+                overflow: 'hidden', marginBottom: '1.75rem',
               }}>
                 {[
-                  { label: 'Output', value: product.output },
-                  { label: 'Efficiency', value: product.efficiency },
+                  { label: 'Output',    value: product.output },
+                  { label: 'Efficiency',value: product.efficiency },
                   { label: 'Room size', value: product.roomSize },
-                  { label: 'Fuel', value: product.fuelType },
-                  { label: 'Origin', value: product.origin },
-                  { label: 'Category', value: product.category },
+                  { label: 'Fuel',      value: product.fuelType },
+                  { label: 'Origin',    value: product.origin },
+                  { label: 'Category',  value: product.category },
                 ].map(spec => (
-                  <div key={spec.label} style={{
-                    background: '#fff',
-                    padding: '0.85rem 1rem',
-                    textAlign: 'center',
-                  }}>
+                  <div key={spec.label} style={{ background: '#fff', padding: '0.85rem 1rem', textAlign: 'center' }}>
                     <p style={{ fontSize: '0.68rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--ash)', fontWeight: 700, marginBottom: 3 }}>
                       {spec.label}
                     </p>
@@ -168,7 +144,6 @@ export default function ProductPage({ params }: Props) {
                 ))}
               </div>
 
-              {/* Description */}
               <p style={{ fontSize: '0.95rem', color: 'var(--walnut)', lineHeight: 1.8, marginBottom: '1.75rem' }}>
                 {product.description}
               </p>
@@ -190,15 +165,10 @@ export default function ProductPage({ params }: Props) {
 
               {/* Price + CTA */}
               <div style={{
-                background: 'var(--parchment)',
-                border: '1px solid var(--birch)',
-                borderRadius: 6,
-                padding: '1.25rem 1.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                flexWrap: 'wrap',
-                gap: '1rem',
+                background: 'var(--parchment)', border: '1px solid var(--birch)',
+                borderRadius: 6, padding: '1.25rem 1.5rem',
+                display: 'flex', alignItems: 'center',
+                justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem',
               }}>
                 <div>
                   <p style={{ fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--ash)', fontWeight: 700, marginBottom: 4 }}>
@@ -211,10 +181,9 @@ export default function ProductPage({ params }: Props) {
                     Installation included · VAT applicable
                   </p>
                 </div>
-
-                <a href={waLink} target="_blank" rel="noopener noreferrer" className="btn-wa" style={{ fontSize: '1rem', padding: '0.9rem 1.8rem' }}>
-                  <WhatsAppIcon />
-                  Enquire on WhatsApp
+                <a href={waLink} target="_blank" rel="noopener noreferrer"
+                  className="btn-wa" style={{ fontSize: '1rem', padding: '0.9rem 1.8rem' }}>
+                  <WhatsAppIcon /> Enquire on WhatsApp
                 </a>
               </div>
 
