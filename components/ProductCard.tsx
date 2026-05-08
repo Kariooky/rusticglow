@@ -29,25 +29,25 @@ export default function ProductCard({ product }: Props) {
         el.style.boxShadow = 'none'
       }}
     >
-      {/* Image placeholder */}
+      {/* Image with absolute category/origin badges */}
       <Link href={`/catalogue/${product.slug}`}>
         <div style={{
-          background: 'linear-gradient(135deg, var(--parchment) 0%, var(--birch) 100%)',
           height: 220,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          position: 'relative',
           overflow: 'hidden',
+          position: 'relative',
+          background: 'var(--parchment)',
         }}>
-          <div style={{
-            width: 80, height: 80, opacity: 0.3,
-          }}>
-            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M40 5C40 5 22 22 22 38C22 48.5 30 57 40 57C50 57 58 48.5 58 38C58 27 48 18 48 18C48 18 47 27 41 31C41 31 45 24 40 5Z" fill="#c45900"/>
-              <path d="M40 33C40 33 32 39 32 45C32 51.1 35.6 57 40 57C44.4 57 48 51.1 48 45C48 39 40 33 40 33Z" fill="#fd7700"/>
-            </svg>
-          </div>
+          <img
+            src={product.images[0]}
+            alt={product.name}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              display: 'block',
+            }}
+          />
           <div style={{
             position: 'absolute', top: 12, left: 12,
             background: 'var(--warmth)',
@@ -64,8 +64,7 @@ export default function ProductCard({ product }: Props) {
           </div>
           <div style={{
             position: 'absolute', top: 12, right: 12,
-            background: 'var(--brand)',
-            color: '#fff',
+            background: 'var(--brand)', color: '#fff',
             fontFamily: 'var(--font-body)',
             fontSize: '0.75rem',
             fontWeight: 700,

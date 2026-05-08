@@ -71,10 +71,17 @@ export default async function ProductPage({ params }: Props) {
                 position: 'relative',
                 overflow: 'hidden',
               }}>
-                <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: 100, opacity: 0.25 }}>
-                  <path d="M60 10C60 10 30 40 30 75C30 98 43.4 118 60 118C76.6 118 90 98 90 75C90 52 72 38 72 38C72 38 70 58 61 65C61 65 68 50 60 10Z" fill="#c45900"/>
-                  <path d="M60 65C60 65 45 76 45 86C45 97.6 51.8 108 60 108C68.2 108 75 97.6 75 86C75 76 60 65 60 65Z" fill="#fd7700"/>
-                </svg>
+                <img
+                  src={product.images[0]}
+                  alt={product.name}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center',
+                    display: 'block',
+                  }}
+                />
                 <div style={{
                   position: 'absolute', top: 16, left: 16,
                   background: 'var(--warmth)', color: 'var(--charcoal)',
@@ -92,13 +99,6 @@ export default async function ProductPage({ params }: Props) {
                 }}>
                   {product.origin}
                 </div>
-                <p style={{
-                  position: 'absolute', bottom: 16, left: 0, right: 0,
-                  textAlign: 'center', fontSize: '0.72rem',
-                  color: 'rgba(92,74,48,0.4)', fontStyle: 'italic',
-                }}>
-                  Replace with product photo in /public/images/products/
-                </p>
               </div>
             </div>
 
