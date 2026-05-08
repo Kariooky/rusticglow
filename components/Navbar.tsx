@@ -39,8 +39,8 @@ export default function Navbar() {
             <Image
              src="/images/rusticglow.png"
              alt="Rustic Glow"
-             width={260}
-            height={55}
+             width={160}
+            height={50}
             style={{ objectFit: 'contain' }}
            />
           </Link>

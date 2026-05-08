@@ -165,7 +165,7 @@ export default function Footer() {
           fontSize: '0.8rem',
           color: 'rgba(255,255,255,0.35)',
         }}>
-          <span>© {new Date().getFullYear()} Rustic Glow. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} @The_Simoom. All rights reserved.</span>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <a href="https://www.instagram.com/rusticglow_ke?igsh=NjU4cHB1MjYwY3hq"
               target="_blank" rel="noopener noreferrer"
