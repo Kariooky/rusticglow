@@ -35,8 +35,8 @@ export default function HomePage() {
               opacity: 0.55,
             }}
           >
-            <source src="/videos/hero-fire.webm" type="video/webm" />
-            <source src="/videos/hero-fire.mp4" type="video/mp4" />
+            <source src="/videos/hero-video.webm" type="video/webm" />
+            <source src="/videos/hero-video.mp4" type="video/mp4" />
           </video>
 
           {/* Dark overlay so text stays readable */}
