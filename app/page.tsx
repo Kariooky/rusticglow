@@ -17,39 +17,33 @@ export default function HomePage() {
         alignItems: 'center',
         overflow: 'hidden',
       }}>
-        {/* Animated flame */}
+        {/* Video fire background */}
         <div aria-hidden="true" style={{
           position: 'absolute', inset: 0,
-          display: 'flex', alignItems: 'flex-end', justifyContent: 'center',
-          pointerEvents: 'none',
+          overflow: 'hidden',
         }}>
-          <svg viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg"
-            style={{ width: '100%', maxHeight: 600, display: 'block' }}
-            preserveAspectRatio="xMidYMax meet">
-            <path className="flame-back-1"
-              d="M580 600 C580 600 520 480 540 400 C560 320 500 280 520 200 C540 120 580 80 580 80 C580 80 560 180 590 230 C620 280 600 320 620 380 C640 440 640 600 640 600 Z"
-              fill="#7a3400"/>
-            <path className="flame-back-2"
-              d="M780 600 C780 600 820 460 800 370 C780 280 840 240 820 150 C800 60 770 30 770 30 C770 30 800 140 770 200 C740 260 760 310 740 390 C720 470 740 600 740 600 Z"
-              fill="#7a3400"/>
-            <path className="flame-mid-1"
-              d="M620 600 C620 600 570 500 590 430 C610 360 560 320 580 260 C600 200 640 160 640 160 C640 160 620 240 650 290 C680 340 660 390 680 450 C700 510 700 600 700 600 Z"
-              fill="#c45900"/>
-            <path className="flame-mid-2"
-              d="M740 600 C740 600 780 490 760 410 C740 330 790 300 775 230 C760 160 730 120 730 120 C730 120 755 200 730 255 C705 310 720 360 705 430 C690 500 700 600 700 600 Z"
-              fill="#c45900"/>
-            <path className="flame-main-1"
-              d="M660 600 C660 600 610 510 630 445 C650 380 600 340 620 275 C640 210 680 170 680 170 C680 170 660 250 695 300 C730 350 710 400 720 460 C730 520 720 600 720 600 Z"
-              fill="#fd7700"/>
-            <path className="flame-main-2"
-              d="M700 600 C700 600 750 500 730 420 C710 340 760 310 745 240 C730 170 700 130 700 130 C700 130 725 210 700 265 C675 320 688 370 678 440 C668 510 680 600 680 600 Z"
-              fill="#fd7700"/>
-            <path className="flame-tip"
-              d="M675 420 C675 420 655 370 665 340 C675 310 660 290 670 260 C680 230 695 210 695 210 C695 210 685 250 700 275 C715 300 705 325 710 355 C715 385 710 420 710 420 Z"
-              fill="#ff9a3c"/>
-            <ellipse className="flame-glow" cx="700" cy="598" rx="280" ry="18" fill="rgba(253,119,0,0.25)"/>
-            <ellipse cx="700" cy="598" rx="160" ry="10" fill="rgba(253,119,0,0.35)"/>
-          </svg>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              opacity: 0.55,
+            }}
+          >
+            <source src="/videos/hero-fire.webm" type="video/webm" />
+            <source src="/videos/hero-fire.mp4" type="video/mp4" />
+          </video>
+
+          {/* Dark overlay so text stays readable */}
+          <div style={{
+            position: 'absolute', inset: 0,
+            background: 'linear-gradient(to right, rgba(26,16,8,0.85) 40%, rgba(26,16,8,0.4) 100%)',
+          }} />
         </div>
 
         {/* Radial glow */}
@@ -226,7 +220,7 @@ export default function HomePage() {
   )
 }
 
-/* ── Icons ── */
+/* ── Icons (unchanged) ── */
 function WAIcon({ color = 'currentColor' }: { color?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill={color} width="18" height="18" style={{ flexShrink: 0 }}>
