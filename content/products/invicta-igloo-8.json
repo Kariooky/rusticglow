@@ -2,7 +2,6 @@
   "name": "Invicta Igloo 8",
   "slug": "invicta-igloo-8",
   "tagline": "French-made, no-nonsense heat",
-  "price": "KES 62,000",
   "category": "Budget Pick",
   "output": "8 kW",
   "efficiency": "70%",
@@ -17,5 +16,5 @@
     "Stove feet included",
     "5-year manufacturer warranty"
   ],
-  "images": ["/images/products/placeholder-stove-3.jpg"]
+  "images": ["/images/products/stove-3.jpg"]
 }
