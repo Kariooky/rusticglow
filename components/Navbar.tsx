@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { generalEnquiryLink } from '@/lib/whatsapp'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -34,19 +35,15 @@ export default function Navbar() {
       }}>
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
           {/* Logo */}
-          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <FlameIcon />
-            <span style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.25rem',
-              fontWeight: 600,
-              color: '#fff',
-              letterSpacing: '0.02em',
-            }}>
-              Rustic<span style={{ color: 'var(--brand)' }}>Glow</span>
-            </span>
+          <Link href="/">
+            <Image
+             src="/images/rusticglow.png"
+             alt="Rustic Glow"
+             width={220}
+            height={55}
+            style={{ objectFit: 'contain' }}
+           />
           </Link>
-
           {/* Desktop nav */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }} className="desktop-nav">
             {links.map(l => (
