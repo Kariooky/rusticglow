@@ -2,7 +2,6 @@
   "name": "RG20262",
   "slug": "jotul-f305",
   "tagline": "Scandinavian precision, African warmth",
-  "price": "KES 150,000",
   "category": "Cast Iron",
   "weight": "125kg",
   "efficiency": "73%",
@@ -17,5 +16,5 @@
     "Top or rear flue outlet",
     "Accepts logs up to 33cm"
   ],
-  "images": ["/images/products/stove-3.jpeg"]
+  "images": ["/images/products/RG20262.jpeg"]
 }

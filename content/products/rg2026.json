@@ -1,7 +1,7 @@
 {
   "name": "RG20263",
   "slug": "morso-6148",
-  "tagline": "Danish design, century-tested warmth",
+  "tagline": "century-tested warmth",
   "price": "KES 110,000",
   "category": "Cast Iron",
   "weight": "150kg",
@@ -17,5 +17,5 @@
     "Adjustable legs for levelling",
     "EPA certified clean burn"
   ],
-  "images": ["/images/products/stove-2.jpeg"]
+  "images": ["/images/products/RG20263.jpeg"]
 }

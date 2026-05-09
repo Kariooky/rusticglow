@@ -1,5 +1,5 @@
 {
-  "name": "RG20263",
+  "name": "RG20264",
   "slug": "kangyuan-cast-iron-stove",
   "tagline": "Robust craftsmanship, steady warmth",
   "category": "Cast Iron",
@@ -7,7 +7,7 @@
   "efficiency": "75%",
   "roomSize": "Up to 90m²",
   "fuelType": "Wood",
-  "type": "Freestanding Stove",
+  "type": "Freestanding",
   "description": "Manufactured by Xuzhou Kangyuan Industry & Trade Co., Ltd., this heavy-duty cast iron stove delivers reliable, long-lasting heat for Kenyan homes. Its solid construction ensures excellent heat retention, keeping your space warm through chilly highland nights and cold upcountry mornings. Built for efficiency and durability, it's an ideal choice for family living areas and farmhouses.",
   "features": [
     "High-strength cast iron body",
@@ -17,5 +17,5 @@
     "Accepts logs up to 40cm",
     "Top flue outlet included"
   ],
-  "images": ["/images/products/RG20263.jpeg", "/images/products/RG20263.jpeg"]
+  "images": ["/images/products/RG20264.jpeg", "/images/products/RG20264.jpeg"]
 }

@@ -1,0 +1,20 @@
+{
+  "name": "RG20268",
+  "slug": "heritage-arch-stove",
+  "tagline": "old-world charm, enduring heat",
+  "category": "Cast Iron",
+  "weight": "120kg",
+  "efficiency": "74%",
+  "roomSize": "Up to 60m²",
+  "fuelType": "Wood",
+  "type": "Freestanding",
+  "description": "A compact cast iron stove with vintage character woven into every curve and contour. The arched double-window door evokes classic European hearths, turning every flame into a flickering cathedral of amber light. Built for dependable warmth and efficient wood burning, this stove is ideal for intimate living spaces, cabins, and cozy lounges that deserve both atmosphere and substance.",
+  "features": [
+    "Decorative arched glass door design",
+    "Heavy-duty cast iron body",
+    "Dual rotary airflow controls",
+    "Compact footprint for smaller spaces",
+    "High-efficiency wood burning chamber"
+  ],
+  "images": ["/images/products/RG20268.jpeg"]
+}

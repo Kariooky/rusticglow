@@ -7,7 +7,7 @@
   "efficiency": "70%",
   "roomSize": "Up to 60m²",
   "fuelType": "Wood",
-  "type": "Standalone",
+  "type": "Freestanding",
   "description": "This is a robust, no-frills cast iron stove built for reliability over decades. A popular first stove for households making the switch from electric or gas heating. Straightforward to operate, easy to maintain, and backed by Rustic Glow's full installation and service warranty.",
   "features": [
     "Simple single-air control",
@@ -16,5 +16,5 @@
     "Stove feet included",
     "5-year manufacturer warranty"
   ],
-  "images": ["/images/products/stove-1.jpeg"]
+  "images": ["/images/products/RG20261.jpeg"]
 }
