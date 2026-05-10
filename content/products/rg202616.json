@@ -1,0 +1,21 @@
+{
+  "name": "RG202616",
+  "slug": "rg202616",
+  "tagline": "Traditional craftsmanship meets high-output central heating",
+  "category": "Cookstove",
+  "weight": "168kg",
+  "dimensions": "H 850mm x W 1070mm x D 600mm",
+  "efficiency": "89%",
+  "roomSize": "Up to 150m²",
+  "fuelType": "Wood / Coal",
+  "type": "Freestanding with Back Boiler",
+  "description": "A high-performance wood-burning cookstove designed to serve as the heart of the home. Hand-assembled in Serbia with a robust bolted construction, the Thermo Magnum Plus combines traditional cooking and baking capabilities with a powerful integrated water circuit for central heating. Featuring a large enameled oven with an integrated thermometer and a spacious cast iron cooktop, it provides both radiant warmth and practical utility for modern off-grid or energy-efficient living.",
+  "features": [
+    "Integrated water boiler for central heating (up to 14kW output)",
+    "Large enameled oven with door-mounted thermometer",
+    "Durable cast iron firebox and cooktop frame",
+    "Primary, secondary, and oven damper controls for precision heat",
+    "Spacious bottom drawer for log storage or warming"
+  ],
+  "images": ["/images/products/RG202616.jpeg"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "RG202617",
+  "slug": "rg202617",
+  "tagline": "Modern multi-fuel efficiency with a classic built-in oven",
+  "category": "Contemporary Cookstove",
+  "weight": "105kg",
+  "dimensions": "H 1005mm x W 585mm x D 515mm",
+  "efficiency": "76.91%",
+  "roomSize": "Up to 110m²",
+  "fuelType": "Wood / Multi-fuel",
+  "type": "Freestanding",
+  "description": "A versatile and robust contemporary stove that blends high-capacity space heating with practical culinary utility. The Victoria Triumph F features a primary combustion chamber lined with heat-accumulating firebricks and a secondary upper oven compartment equipped with a glass-mounted thermometer for precision baking. Its sleek graphite finish and tall, upright design make it a perfect fit for modern homes seeking both warmth and a reliable off-grid cooking solution.",
+  "features": [
+    "Integrated upper oven with a door-mounted thermometer",
+    "Primary and secondary air controls for optimized combustion",
+    "Heat-resistant ceramic glass windows for both firebox and oven",
+    "Large easy-access ash pan for simplified maintenance",
+    "Spacious lower wood storage compartment"
+  ],
+  "images": ["/images/products/RG202617.jpeg"]
+}

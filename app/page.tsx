@@ -4,7 +4,7 @@ import { generalEnquiryLink, serviceEnquiryLink } from '@/lib/whatsapp'
 import ProductCard from '@/components/ProductCard'
 
 export default function HomePage() {
-  const products = getAllProducts()
+  const products = getAllProducts().slice(0, 3)
 
   return (
     <>
