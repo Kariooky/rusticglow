@@ -8,6 +8,7 @@ export interface Product {
   price: string
   category: string
   weight: string
+  dimensions: string
   efficiency: string
   roomSize: string
   fuelType: string

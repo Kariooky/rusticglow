@@ -127,6 +127,7 @@ export default async function ProductPage({ params }: Props) {
               }}>
                 {[
                   { label: 'Weight',    value: product.weight },
+                  { label: 'Dimensions', value: product.dimensions },
                   { label: 'Efficiency',value: product.efficiency },
                   { label: 'Room size', value: product.roomSize },
                   { label: 'Fuel',      value: product.fuelType },

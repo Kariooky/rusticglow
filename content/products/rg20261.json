@@ -1,9 +1,10 @@
 {
   "name": "RG20261",
-  "slug": "invicta-igloo-8",
+  "slug": "rg20261",
   "tagline": "French-made, no-nonsense heat",
   "category": "Budget Pick",
   "weight": "130kg",
+  "dimensions": "H 650mm × W 420mm × D 380mm",
   "efficiency": "70%",
   "roomSize": "Up to 60m²",
   "fuelType": "Wood",
