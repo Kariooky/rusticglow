@@ -1,21 +1,21 @@
 {
   "name": "RG20262",
   "slug": "rg20262",
-  "tagline": "Scandinavian precision, African warmth",
-  "category": "Cast Iron",
-  "weight": "125kg",
-  "dimensions": "H 650mm x W 420mm x D 380mm",
-  "efficiency": "73%",
-  "roomSize": "Up to 80m²",
+   "tagline": "Grand cast iron presence with panoramic fire views",
+  "category": "Premium Cast Iron",
+  "weight": "174kg",
+  "dimensions": "H 730mm x W 900mm x D 480mm",
+  "efficiency": "85%",
+  "roomSize": "Up to 150m²",
   "fuelType": "Wood",
-  "type": "Chimney Insert",
-  "description": "This is a classic cast iron stove with clean Scandinavian lines and exceptional heat retention. Once fired up, the dense cast iron absorbs heat and radiates it steadily for hours — even after the fire dies down. Perfect for Nairobi highland evenings and cold seasons upcountry.",
+  "type": "Insert / Freestanding Hybrid",
+  "description": "The CJ-30 is an imported cast iron masterpiece designed for high-output heating and a commanding aesthetic. This versatile unit can be installed as a sleek built-in insert or as a freestanding centerpiece on a custom plinth. Featuring advanced secondary and tertiary air systems, it ensures an exceptionally clean and efficient burn. Its expansive heat-resistant glass door provides a panoramic view of the flames, while the heavy-duty Australian mineral ore construction guarantees long-lasting heat retention and durability for the largest living spaces.",
   "features": [
-    "Large glass door for flame viewing",
-    "Cast iron construction for long heat retention",
-    "Airwash system keeps glass clean",
-    "Top or rear flue outlet",
-    "Accepts logs up to 33cm"
+    "Heavy-duty cast iron construction for maximum heat storage",
+    "Panoramic ceramic glass window with air-wash technology",
+    "Advanced secondary and tertiary air systems for clean combustion",
+    "Dual installation capability (built-in or freestanding)",
+    "Removable internal ash drawer for easy maintenance"
   ],
   "images": ["/images/products/RG20262.jpeg"]
 }

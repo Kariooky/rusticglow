@@ -1,21 +1,21 @@
 {
   "name": "RG20268",
   "slug": "rg20268",
-  "tagline": "old-world charm, enduring heat",
-  "category": "Cast Iron",
-  "weight": "120kg",
-  "dimensions": "H 650mm x W 420mm x D 380mm",
-  "efficiency": "74%",
-  "roomSize": "Up to 60m²",
+   "tagline": "Traditional cast iron artistry with advanced thermal efficiency",
+  "category": "Classic Cast Iron",
+  "weight": "118kg",
+  "dimensions": "H 680mm x W 580mm x D 440mm",
+  "efficiency": "78%",
+  "roomSize": "Up to 90m²",
   "fuelType": "Wood",
   "type": "Freestanding",
-  "description": "A compact cast iron stove with vintage character woven into every curve and contour. The arched double-window door evokes classic European hearths, turning every flame into a flickering cathedral of amber light. Built for dependable warmth and efficient wood burning, this stove is ideal for intimate living spaces, cabins, and cozy lounges that deserve both atmosphere and substance.",
+  "description": "The Godin SM02 is a masterclass in classic European stove design, blending intricate cast iron craftsmanship with modern closed-combustion technology. Engineered for superior heat retention, its heavy-duty mineral ore construction allows for even heat distribution that persists long after the fire has dimmed. The iconic arched viewing window is kept clear by an integrated air-wash system, while precision dual air controls and a dedicated ash collection compartment make this stove as user-friendly as it is aesthetically timeless.",
   "features": [
-    "Decorative arched glass door design",
-    "Heavy-duty cast iron body",
-    "Dual rotary airflow controls",
-    "Compact footprint for smaller spaces",
-    "High-efficiency wood burning chamber"
+    "Durable full cast iron body for maximum thermal mass",
+    "Ornate arched ceramic glass door for a classic fire view",
+    "Dual primary and secondary air sliders for combustion control",
+    "Self-cleaning air-wash system for clear glass maintenance",
+    "Reinforced internal grate with easy-access ash pan"
   ],
   "images": ["/images/products/RG20268.jpeg"]
 }
