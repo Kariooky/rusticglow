@@ -60,45 +60,22 @@ export default async function ProductPage({ params }: Props) {
           }}>
             {/* Left — image */}
             <div>
+              {/* Replaced image container: no cropping, full image shows */}
               <div style={{
-                background: 'linear-gradient(135deg, var(--parchment) 0%, var(--birch) 100%)',
                 borderRadius: 8,
                 border: '1px solid var(--birch)',
-                aspectRatio: '4/3',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                position: 'relative',
                 overflow: 'hidden',
+                background: 'var(--parchment)',
               }}>
                 <img
                   src={product.images[0]}
                   alt={product.name}
                   style={{
                     width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'center',
+                    height: 'auto',
                     display: 'block',
                   }}
                 />
-                <div style={{
-                  position: 'absolute', top: 16, left: 16,
-                  background: 'var(--warmth)', color: 'var(--charcoal)',
-                  fontFamily: 'var(--font-body)', fontSize: '0.72rem',
-                  fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase',
-                  padding: '5px 12px', borderRadius: 3,
-                }}>
-                  {product.category}
-                </div>
-                <div style={{
-                  position: 'absolute', top: 16, right: 16,
-                  background: 'var(--brand)', color: '#fff',
-                  fontFamily: 'var(--font-body)', fontSize: '0.72rem',
-                  fontWeight: 700, padding: '5px 12px', borderRadius: 3,
-                }}>
-                  {product.type}
-                </div>
               </div>
             </div>
 
