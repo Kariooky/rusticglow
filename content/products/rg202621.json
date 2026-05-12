@@ -1,0 +1,21 @@
+{
+  "name": "RG202621",
+  "slug": "rg202621",
+  "tagline": "Industrial-strength heating in a compact freestanding design",
+  "category": "Compact Steel Wood Stove",
+  "weight": "84kg",
+  "dimensions": "H 820mm x W 480mm x D 450mm",
+  "efficiency": "78.2%",
+  "roomSize": "Up to 90m²",
+  "fuelType": "Wood / Wood Briquettes",
+  "type": "Freestanding",
+  "description": "The Thermozel Askio is a high-performance steel wood stove designed for efficiency and durability in smaller spaces. Featuring a robust 5mm thick steel chassis and a primary combustion chamber lined with high-density firebricks, it provides rapid heat distribution and steady thermal release. Its clean, square lines and large ceramic glass window offer a modern take on the traditional log burner, making it an ideal choice for cabins, workshops, or compact urban living rooms.",
+  "features": [
+    "Durable 5mm thick cold-rolled steel construction",
+    "Heat-retaining firebrick lining for improved thermal mass",
+    "Precision air intake control for adjustable burn rates",
+    "Air-wash system to keep the ceramic glass clear of soot",
+    "Removable internal ash drawer for clean and easy disposal"
+  ],
+  "images": ["/images/products/RG202621.jpeg"]
+}
