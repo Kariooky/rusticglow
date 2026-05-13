@@ -133,7 +133,7 @@ export default function HomePage() {
               { icon: <BoxIcon />,     title: 'Curated Imports',      desc: 'Every stove is hand-picked from proven European manufacturers — Jøtul, Morsø, Invicta. Quality-checked before it reaches you.' },
               { icon: <WrenchIcon />,  title: 'Expert Installation',  desc: 'Our team handles everything from site assessment to chimney fitting. Done right the first time, with a full safety check.' },
               { icon: <SpannerIcon />, title: 'Ongoing Maintenance',  desc: 'Annual chimney sweeps, gasket replacements, glass cleaning — we keep your stove burning clean and safe for years.' },
-              { icon: <ChatIcon />,    title: 'Expert Support',desc: 'Message us directly - get quick answers on availability, sizing advice, and service bookings.' },
+              { icon: <ChatIcon />,    title: 'Personalized Support',desc: 'Message us directly - get quick answers on availability, sizing advice, and service bookings.' },
             ].map(item => (
               <div key={item.title} style={{
                 background: '#fff', border: '1px solid var(--birch)',
