@@ -1,0 +1,21 @@
+{
+  "name": "VD800",
+  "slug": "vd800",
+  "tagline": "Architectural wall-hung design featuring a three-sided panoramic fire view",
+  "material": "Cast Iron",
+  "weight": "152kg",
+  "dimensions": "H 565mm x W 800mm x D 450mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Wall-Mounted / Floating",
+  "description": "The VD800 is a sophisticated, floating-style wood fireplace engineered for modern, minimalist interiors. Designed to be wall-mounted, it creates a striking visual statement while keeping floor spaces completely clear. It features a three-sided panoramic configuration with a large front viewing panel and matching side glass windows, offering an unobstructed, multi-angle view of the dancing flames from anywhere in the room.",
+  "features": [
+    "Premium 152kg high-mass chassis engineered for secure wall-hung installation",
+    "Three-sided panoramic layout with matching side glass panels for wrap-around visibility",
+    "Ultra-wide front ceramic viewing window delivering maximum radiant warmth",
+    "Sleek floating profile that optimizes floor footprint and accentuates modern architecture",
+    "Seamless top flue outlet connection designed for clean, vertical chimney installations"
+  ],
+  "images": ["/images/products/vd800.jpg"]
+}

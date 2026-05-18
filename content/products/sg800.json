@@ -1,0 +1,21 @@
+{
+  "name": "SG800",
+  "slug": "sg800",
+  "tagline": "Elegant modern fireplace with an extra-wide architectural log store base",
+  "material": "Cast Iron",
+  "weight": "142kg",
+  "dimensions": "H 615mm x W 800mm x D 420mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Freestanding with Log Store",
+  "description": "The SG800 is a premium, contemporary wood stove designed with a clean, geometric silhouette to complement modern living spaces. Weighing 142kg, it features an expansive rectangular glass door framed in a smooth matte-black finish, providing an exceptional view of the fire. The firebox sits perfectly centered on an extra-wide, low-profile open plinth that serves as an artistic and practical log storage bench, creating a dramatic, horizontal focal point.",
+  "features": [
+    "Substantial 142kg high-grade frame engineered for efficient heat distribution",
+    "Extra-wide integrated open plinth base serving as a spacious log storage bench",
+    "Large panoramic ceramic glass window for an uninterrupted, vivid view of the flames",
+    "Minimalist front door assembly with an integrated sleek vertical metal handle",
+    "Centered top flue outlet configuration optimized for elegant, straight chimney setups"
+  ],
+  "images": ["/images/products/sg800.jpg"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "MI683",
+  "slug": "mi683",
+  "tagline": "Sleek inset fireplace with a bold glass frame trim",
+  "material": "Cast Iron",
+  "weight": "85kg",
+  "dimensions": "H 593mm x W 683mm x D 403mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Small to Medium Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Insert",
+  "description": "The MI683 is a modern cassette-style insert stove engineered to fit flush into wall recesses or fireplace openings. Encased in a durable outer chassis weighing 85kg, it features a highly insulated combustion chamber lined with heat-reflective vermiculite bricks for accelerated thermal delivery. The unit is framed by a minimalist, glossy black glass fascia and finished with a striking brushed steel vertical handle, offering an ultra-contemporary look for sophisticated spaces.",
+  "features": [
+    "Flush-fitting insert design ideal for space-saving wall installations",
+    "Bold glossy black glass surrounding frame for a seamless minimalist aesthetic",
+    "Premium vermiculite internal lining for enhanced combustion temperatures",
+    "Sleek vertical brushed metal handle for smooth and secure door operation",
+    "Dedicated top flue outlet configuration optimized for standard chimney setups"
+  ],
+  "images": ["/images/products/mi683.jpg"]
+}

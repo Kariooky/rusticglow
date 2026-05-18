@@ -1,0 +1,21 @@
+{
+  "name": "ZT605",
+  "slug": "zt605",
+  "tagline": "Sleek vertical heating with integrated log storage",
+  "material": "Cast Iron",
+  "weight": "93kg",
+  "dimensions": "H 803mm x W 440mm x D 348mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Small to Medium Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Freestanding with Log Store",
+  "description": "The ZT605 is an elegant, tall-profile wood stove built from premium thick cast iron for exceptional structural integrity and rapid warmth. Designed with urban spaces in mind, its vertical footprint maximizes floor space while offering a large glass viewing window for a dramatic fire display. The unit features an open lower compartment for convenient log storage alongside dual flue options for flexible room layout adaptation.",
+  "features": [
+    "Thick cast iron construction for reliable heat output and durability",
+    "Space-saving vertical design with built-in open log storage base",
+    "Large panoramic glass panel providing an unobstructed view of the flames",
+    "Dual configuration allowing for both top and rear flue connections",
+    "User-adjustable primary air control lever for precision combustion"
+  ],
+  "images": ["/images/products/zt605.jpg"]
+}

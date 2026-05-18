@@ -1,0 +1,21 @@
+{
+  "name": "ZT710",
+  "slug": "zt710",
+  "tagline": "Classic double-door styling with expansive multi-sided views",
+  "material": "Cast Iron",
+  "weight": "165kg",
+  "dimensions": "H 770mm x W 710mm x D 500mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Freestanding",
+  "description": "The ZT710 is a heavy-duty, premium wood stove that blends traditional craftsmanship with expansive viewing capabilities. Forged from thick cast iron weighing 165kg, it offers remarkable heat retention to warm large living spaces long after the fire goes out. Its classic double-door front design features multi-pane ceramic glass, complemented by arched side viewing windows that create a breathtaking, multi-dimensional view of the flames.",
+  "features": [
+    "Substantial 165kg thick cast iron body for maximum thermal mass",
+    "Classic double-door layout featuring glass windows with traditional pane detailing",
+    "Arched side glass panels providing an enhanced multi-angle view of the fire",
+    "Elegant cabriole-style cast iron legs elevating the firebox beautifully",
+    "Integrated bottom slide-out ash drawer and dedicated top flue outlet"
+  ],
+  "images": ["/images/products/zt710.jpg"]
+}

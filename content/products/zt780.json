@@ -1,0 +1,21 @@
+{
+  "name": "ZT780",
+  "slug": "zt780",
+  "tagline": "Elegant arched design with powerful high-mass heating capabilities",
+  "material": "Cast Iron",
+  "weight": "170kg",
+  "dimensions": "H 810mm x W 730mm x D 470mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Large to Extra-Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Freestanding",
+  "description": "The ZT780 is an exceptionally robust, high-mass wood stove expertly forged from premium thick cast iron. Weighing a substantial 170kg, it delivers incredible thermal inertia, radiating steady, comfortable warmth through large residential spaces long after the fire is out. It features an ornate, traditional arched viewing door with intricate decorative lattice detailing, textured lower paneling, and dual air dials that pair timeless aesthetics with heavy-duty performance.",
+  "features": [
+    "Substantial 170kg thick cast iron structure providing maximum heat storage",
+    "Classic arched single-door frame with elegant lattice glass detailing",
+    "Ornate textured body accents and traditional curved legs for upscale appeal",
+    "Dual circular primary air control knobs on the front for adjustable burning",
+    "Versatile configuration options supporting both top and rear flue outlets"
+  ],
+  "images": ["/images/products/zt780.jpg"]
+}
