@@ -6,7 +6,7 @@ export interface Product {
   slug: string
   tagline: string
   price: string
-  category: string
+  material: string
   weight: string
   dimensions: string
   efficiency: string

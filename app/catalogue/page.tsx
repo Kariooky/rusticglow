@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function CataloguePage() {
   const products = getAllProducts()
-  const categories = ['All', ...Array.from(new Set(products.map(p => p.category)))]
+  const categories = ['All', ...Array.from(new Set(products.map(p => p.material)))]
 
   return (
     <>

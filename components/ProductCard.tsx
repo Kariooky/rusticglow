@@ -60,7 +60,7 @@ export default function ProductCard({ product }: Props) {
             padding: '4px 10px',
             borderRadius: 3,
           }}>
-            {product.category}
+            {product.material}
           </div>
           <div style={{
             position: 'absolute', top: 12, right: 12,

@@ -82,7 +82,7 @@ export default async function ProductPage({ params }: Props) {
             {/* Right — details */}
             <div>
               <p style={{ fontSize: '0.8rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--brand)', marginBottom: '0.5rem' }}>
-                {product.category} · {product.type}
+                {product.material} · {product.type}
               </p>
               <h1 style={{
                 fontFamily: 'var(--font-display)',
@@ -109,7 +109,7 @@ export default async function ProductPage({ params }: Props) {
                   { label: 'Room size', value: product.roomSize },
                   { label: 'Fuel',      value: product.fuelType },
                   { label: 'Type',      value: product.type },
-                  { label: 'Category',  value: product.category },
+                  { label: 'Material',  value: product.material },
                 ].map(spec => (
                   <div key={spec.label} style={{ background: '#fff', padding: '0.85rem 1rem', textAlign: 'center' }}>
                     <p style={{ fontSize: '0.68rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--ash)', fontWeight: 700, marginBottom: 3 }}>
