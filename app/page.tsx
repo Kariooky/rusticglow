@@ -77,7 +77,7 @@ export default function HomePage() {
               fontSize: '1.1rem', color: 'rgba(255,255,255,0.65)',
               maxWidth: 480, lineHeight: 1.75, marginBottom: '2.5rem',
             }}>
-              We import, install and maintain premium European woodstoves across East Africa. One call — we handle everything.
+              We import, install and maintain premium woodstoves across East Africa. One call — we handle everything.
             </p>
 
             <div className="hero-fade-4" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
@@ -130,7 +130,7 @@ export default function HomePage() {
           </div>
           <div className="why-us-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem' }}>
             {[
-              { icon: <BoxIcon />,     title: 'Curated Imports',      desc: 'Every stove is hand-picked from proven European manufacturers — Jøtul, Morsø, Invicta. Quality-checked before it reaches you.' },
+              { icon: <BoxIcon />,     title: 'Curated Imports',      desc: 'Every stove is hand-picked from proven manufacturers — Jøtul, Morsø, Hi-Flame Metal, Ningbo Precise Machinery, Invicta. Quality-checked before it reaches you.' },
               { icon: <WrenchIcon />,  title: 'Expert Installation',  desc: 'Our team handles everything from site assessment to chimney fitting. Done right the first time, with a full safety check.' },
               { icon: <SpannerIcon />, title: 'Ongoing Maintenance',  desc: 'Annual chimney sweeps, gasket replacements, glass cleaning — we keep your stove burning clean and safe for years.' },
               { icon: <ChatIcon />,    title: 'Personalized Support',desc: 'Message us directly - get quick answers on availability, sizing advice, and service bookings.' },
