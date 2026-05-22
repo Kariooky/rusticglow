@@ -234,3 +234,9 @@ h1, h2, h3, h4 {
 .gallery-img:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 768px) {
+  .service-content-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -1,3 +1,4 @@
+import React from 'react'
 import { serviceEnquiryLink, generalEnquiryLink } from '@/lib/whatsapp'
 import type { Metadata } from 'next'
 
@@ -6,25 +7,71 @@ export const metadata: Metadata = {
   description: 'Professional woodstove installation, chimney cleaning and maintenance across Kenya and East Africa.',
 }
 
-const services = [
+interface ServiceStep {
+  step: string
+  title: string
+  desc: string
+}
+
+interface Service {
+  id: string
+  icon: React.ReactNode
+  image?: string
+  title: string
+  tagline: string
+  waService: string
+  description: string
+  steps: ServiceStep[]
+  note: string
+}
+
+/* ── Icons (must be defined before services array) ── */
+function WAIcon({ color = 'currentColor' }: { color?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill={color} width="18" height="18" style={{ flexShrink: 0 }}>
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  )
+}
+
+function WrenchIcon() {
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+}
+
+function BrushIcon() {
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><path d="M18 3a3 3 0 0 0-3 3l-7 8a3 3 0 0 0 0 6h.5a3 3 0 0 0 2.12-.88l7-7A3 3 0 0 0 18 3z"/><path d="M7 21a3 3 0 0 1-3-3 1 1 0 0 0-1-1H2"/></svg>
+}
+
+function SpannerIcon() {
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+}
+
+function InfoIcon() {
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+}
+
+/* ── Services array (icons are now defined) ── */
+const services: Service[] = [
   {
     id: 'installation',
     icon: <WrenchIcon />,
+    image: '/images/services/installation.png',
     title: 'Installation',
     tagline: 'From bare wall to blazing fire',
     waService: 'Installation',
     description: 'We handle the full installation process — from your first call to lighting the inaugural fire. Every installation is carried out by our trained technicians and signed off with a safety inspection.',
     steps: [
-      { step: '01', title: 'Site Assessment',           desc: 'We visit your space to evaluate flue routing, hearth requirements, room dimensions and the best stove position.' },
+      { step: '01', title: 'Site Assessment',            desc: 'We visit your space to evaluate flue routing, hearth requirements, room dimensions and the best stove position.' },
       { step: '02', title: 'Proposal & Stove Selection', desc: 'We recommend the right stove for your room size and usage, with a written quote covering supply and installation.' },
       { step: '03', title: 'Chimney & Flue Installation',desc: 'We install the twin-wall flue system or connect to an existing masonry chimney, ensuring correct draught and clearances.' },
-      { step: '04', title: 'Stove Fitting & Commissioning',desc: 'The stove is positioned, connected to the flue, and test-fired. We walk you through operation, airwash, and ash management.' },
+      { step: '04', title: 'Stove Fitting & Commissioning', desc: 'The stove is positioned, connected to the flue, and test-fired. We walk you through operation, airwash, and ash management.' },
     ],
     note: 'All installations include a 12-month workmanship warranty.',
   },
   {
     id: 'chimney-cleaning',
     icon: <BrushIcon />,
+    image: '/images/services/chimney-cleaning.jpeg',
     title: 'Chimney Cleaning',
     tagline: 'Clean flue, safe burn, better draw',
     waService: 'Chimney Cleaning',
@@ -40,15 +87,16 @@ const services = [
   {
     id: 'maintenance',
     icon: <SpannerIcon />,
+    image: '/images/services/maintenance.png',
     title: 'Maintenance & Repairs',
     tagline: 'Keep it burning for decades',
     waService: 'Maintenance & Repairs',
     description: "Cast iron stoves are built to last 30+ years — but they need periodic attention. Rope seals harden, glass cracks, baffle plates warp. We stock genuine spare parts and carry out repairs on-site in most cases.",
     steps: [
-      { step: '01', title: 'Annual Service Visit',      desc: 'A thorough inspection covering door seals, glass, baffle plate, grate, ash pan, and all air controls.' },
-      { step: '02', title: 'Rope & Seal Replacement',   desc: 'Door rope and glass seals are replaced when compression is lost — critical for correct air control and efficiency.' },
-      { step: '03', title: 'Glass Replacement',         desc: 'Ceramic glass panels replaced with correct-spec heat-resistant glass. Same-day repair in most cases.' },
-      { step: '04', title: 'Flue Liner Inspection',     desc: 'CCTV camera inspection available for older installations. We detect liner deterioration before it becomes a safety issue.' },
+      { step: '01', title: 'Annual Service Visit',    desc: 'A thorough inspection covering door seals, glass, baffle plate, grate, ash pan, and all air controls.' },
+      { step: '02', title: 'Rope & Seal Replacement', desc: 'Door rope and glass seals are replaced when compression is lost — critical for correct air control and efficiency.' },
+      { step: '03', title: 'Glass Replacement',       desc: 'Ceramic glass panels replaced with correct-spec heat-resistant glass. Same-day repair in most cases.' },
+      { step: '04', title: 'Flue Liner Inspection',   desc: 'CCTV camera inspection available for older installations. We detect liner deterioration before it becomes a safety issue.' },
     ],
     note: 'We maintain a spare parts inventory for all brands we stock. Emergency call-outs available for Nairobi.',
   },
@@ -81,7 +129,7 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      {/* Sticky section nav — CSS hover only, no JS handlers needed */}
+      {/* Sticky section nav */}
       <div style={{
         background: 'var(--parchment)',
         borderBottom: '1px solid var(--birch)',
@@ -134,10 +182,35 @@ export default function ServicesPage() {
               </a>
             </div>
 
-            {/* Description */}
-            <p style={{ fontSize: '1rem', color: 'var(--walnut)', lineHeight: 1.8, maxWidth: 680, marginBottom: '2.5rem' }}>
-              {service.description}
-            </p>
+            {/* Description + image side by side */}
+            <div
+              className="service-content-grid"
+              style={{
+                display: 'grid',
+                gridTemplateColumns: service.image ? '1fr 1fr' : '1fr',
+                gap: '2.5rem',
+                alignItems: 'start',
+                marginBottom: '2.5rem',
+              }}
+            >
+              <p style={{ fontSize: '1rem', color: 'var(--walnut)', lineHeight: 1.8 }}>
+                {service.description}
+              </p>
+
+              {service.image && (
+                <div style={{
+                  borderRadius: 8,
+                  overflow: 'hidden',
+                  border: '1px solid var(--birch)',
+                }}>
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    style={{ width: '100%', height: 'auto', display: 'block' }}
+                  />
+                </div>
+              )}
+            </div>
 
             {/* Process steps */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '1.25rem', marginBottom: '2rem' }}>
@@ -197,39 +270,22 @@ export default function ServicesPage() {
               We respond on WhatsApp within the hour during business hours.
             </p>
           </div>
-          <a href={generalEnquiryLink()} target="_blank" rel="noopener noreferrer"
+          <a
+            href={generalEnquiryLink()}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               display: 'inline-flex', alignItems: 'center', gap: 10,
               background: '#fff', color: 'var(--brand)',
               fontFamily: 'var(--font-body)', fontWeight: 700, fontSize: '0.95rem',
               padding: '0.85rem 1.8rem', borderRadius: 4,
               whiteSpace: 'nowrap', textDecoration: 'none',
-            }}>
+            }}
+          >
             <WAIcon color="var(--brand)" /> Message us now
           </a>
         </div>
       </section>
     </>
   )
-}
-
-/* ── Icons ── */
-function WAIcon({ color = 'currentColor' }: { color?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill={color} width="18" height="18" style={{ flexShrink: 0 }}>
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
-  )
-}
-function WrenchIcon() {
-  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-}
-function BrushIcon() {
-  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><path d="M18 3a3 3 0 0 0-3 3l-7 8a3 3 0 0 0 0 6h.5a3 3 0 0 0 2.12-.88l7-7A3 3 0 0 0 18 3z"/><path d="M7 21a3 3 0 0 1-3-3 1 1 0 0 0-1-1H2"/></svg>
-}
-function SpannerIcon() {
-  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="24" height="24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
-}
-function InfoIcon() {
-  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
 }
