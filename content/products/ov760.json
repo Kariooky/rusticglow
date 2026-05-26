@@ -1,0 +1,21 @@
+{
+  "name": "OV760",
+  "slug": "ov760",
+  "tagline": "Premium multi-functional wood stove with an integrated baking oven",
+  "material": "Thickened Steel and Cast Iron",
+  "weight": "215kg",
+  "dimensions": "H 1200mm x W 760mm x D 450mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "Large to Extra-Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Freestanding + Oven",
+  "description": "The OV760 is a heavy-duty, multi-tier gourmet wood stove designed for simultaneous home heating and culinary use. Weighing an impressive 215kg for massive thermal heat storage, its vertical layout features a large primary combustion chamber at the center, topped by an independent built-in baking oven complete with a dedicated temperature gauge. A practical, open wood storage compartment at the very base completes this versatile and highly efficient all-in-one heating station.",
+  "features": [
+    "Substantial 215kg high-mass chassis delivering immense radiant heat retention",
+    "Integrated upper baking oven compartment equipped with a front-mounted thermometer",
+    "Dual-window design with distinct viewing glass panels for both cooking and fire chambers",
+    "Convenient low-profile open base designed for clean and dry log storage",
+    "Sturdy straight top flue configuration optimized for superior drafting performance"
+  ],
+  "images": ["/images/products/ov760.jpg"]
+}

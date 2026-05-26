@@ -1,0 +1,21 @@
+{
+  "name": "KR800",
+  "slug": "kr800",
+  "tagline": "Modern minimalist pedestal stove with an ultra-wide glass viewing pane",
+  "material": "Thickened Steel and Cast Iron",
+  "weight": "N/A",
+  "dimensions": "H 899mm x W 800mm x D 420mm",
+  "efficiency": "High Efficiency",
+  "roomSize": "100-120m²",
+  "fuelType": "Wood Log",
+  "type": "Freestanding Pedestal",
+  "description": "The KR800 is a sophisticated pedestal-mounted wood stove featuring a striking, clean square profile designed to anchors modern open-concept spaces. Engineered to efficiently heat extensive residential zones up to 120m², it showcases an oversized glass door panel with integrated black borders that seamlessly frames the firebox inside. Elevating the combustion chamber on a heavy-duty, solid central pedestal base creates a beautiful floating illusion while keeping the focal view right at eye level.",
+  "features": [
+    "Sleek architectural pedestal design raising the firebox to an optimal viewing level",
+    "Large format front glass fascia with polished black accents for a contemporary look",
+    "Powerful heating capacity custom-engineered for extensive areas up to 120 square meters",
+    "Premium internal combustion chamber insulation maximizing steady thermal radiation",
+    "Sleek vertical metallic door handle providing smooth, airtight tactile operation"
+  ],
+  "images": ["/images/products/kr800.jpg"]
+}
