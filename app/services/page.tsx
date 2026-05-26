@@ -82,7 +82,7 @@ const services: Service[] = [
       { step: '03', title: 'Creosote Report', desc: 'We report on creosote buildup levels (Stage I–III) and advise on fuel quality improvements if needed.' },
       { step: '04', title: 'Draught Test',    desc: 'A smoke pellet test confirms your chimney is drawing correctly before we leave.' },
     ],
-    note: 'We issue a sweep certificate after every visit — useful for insurance and landlord compliance.',
+    note: 'Every visit includes a full chimney sweep and service inspection, helping keep your system safe, efficient, and compliant with recommended maintenance standards..',
   },
   {
     id: 'maintenance',
