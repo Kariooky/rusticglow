@@ -1,0 +1,21 @@
+{
+  "name": "Smart Ethanol Fireplace",
+  "slug": "saf",
+  "tagline": "Intelligent ventless ribbon fire with remote operation and extended burn time",
+  "material": "Stainless Steel",
+  "weight": "12-50kg (Varies by custom length)",
+  "dimensions": "Fully customizable length",
+  "efficiency": "100% (Ventless design)",
+  "roomSize": "Variable by custom model volume",
+  "fuelType": "Bioethanol",
+  "type": "Smart Drop-in Burner Insert",
+  "description": "The Smart Ethanol Fireplace (Model: SAF) is an advanced, automated ventless ribbon burner precision-engineered from high-grade stainless steel. Designed for seamless integration into luxury architectural concepts, it features intelligent electronics that support automated button and remote control operation. Operating on eco-friendly bioethanol, it delivers a continuous linear flame profile for up to 10 hours without the need for a chimney or flue, bringing elevated convenience and modern warmth to any space.",
+  "features": [
+    "Smart automated interface allowing effortless button and remote control operation",
+    "High-capacity 4-38 liter fuel reservoir yielding an extended 8-10 hour burn time",
+    "Fully customizable linear length to fit bespoke media walls and room dividers",
+    "Eco-friendly ventless operation requiring no chimney, utilities, or external venting",
+    "Premium stainless steel chassis available in sophisticated silver or black finishes"
+  ],
+  "images": ["/images/products/saf.png"]
+}

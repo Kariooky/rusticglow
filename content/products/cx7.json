@@ -1,0 +1,21 @@
+{
+  "name": "CX7",
+  "slug": "cx7",
+  "tagline": "Iconic suspended fireplace delivering 360-degree architectural warmth",
+  "material": "Premium Heavy-Duty Steel Plate",
+  "weight": "50kg - 120kg (Varies by custom configuration)",
+  "dimensions": "Fully customizable to fit ceiling height",
+  "efficiency": "High Efficiency",
+  "roomSize": "80-120m²",
+  "fuelType": "Wood Log",
+  "type": "Suspended / Ceiling-Mounted",
+  "description": "The CX7 is a masterpiece of modern luxury heating, featuring an iconic suspended design that floats effortlessly to create a spectacular focal point. Crafted from premium heavy-duty steel plate, this avant-garde fireplace is engineered for open-concept residential spaces, boutique hospitality venues, and upscale commercial lounges. Its elegant, organic contours and open-fire design provide uncompromised radiant warmth and an unobstructed view of the dancing flames, blending sculptural artistry with high-performance thermal comfort.",
+  "features": [
+    "Dramatic ceiling-mounted suspended profile maximizing floor space and luxury appeal",
+    "Premium heavy-duty steel plate construction built for high temperature resistance",
+    "Fully customizable pipe length tailored precisely to your specific room and ceiling height",
+    "Substantial heating capacity engineered to efficiently warm large, open-concept areas",
+    "Versatile architectural layout ideally suited for luxury villas, sunrooms, and boutique cafes"
+  ],
+  "images": ["/images/products/cx7.png"]
+}
