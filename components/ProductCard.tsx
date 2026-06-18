@@ -106,7 +106,7 @@ export default function ProductCard({ product }: Props) {
             {product.price}
           </span>
           <a
-            href={productEnquiryLink(product.name, product.price)}
+            href={productEnquiryLink(product.name, product.slug, product.price)}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-wa"

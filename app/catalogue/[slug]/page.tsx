@@ -27,7 +27,7 @@ export default async function ProductPage({ params }: Props) {
   const product = getProductBySlug(slug)
   if (!product) notFound()
 
-  const waLink = productEnquiryLink(product.name, product.price)
+  const waLink = productEnquiryLink(product.name, product.slug, product.price)
 
   return (
     <>
