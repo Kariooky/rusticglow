@@ -68,7 +68,7 @@ Create a new `.json` file in `/content/products/`:
 The number is set in `/lib/whatsapp.ts`:
 
 ```ts
-const WA_NUMBER = '254748692118'
+const WA_NUMBER = '254115265517'
 ```
 
 Change it there if your number ever changes — all buttons update automatically.

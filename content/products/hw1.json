@@ -1,0 +1,21 @@
+{
+  "name": "HW1",
+  "slug": "hw1",
+  "tagline": "Iconic spherical suspended design with a captivating porthole fire view",
+  "material": "Premium Carbon Steel",
+  "weight": "N/A",
+  "dimensions": "Customizable to fit ceiling height",
+  "efficiency": "High Efficiency",
+  "roomSize": "Standard to Large Living Areas",
+  "fuelType": "Wood Log",
+  "type": "Suspended / Ceiling-Mounted",
+  "description": "The HW1 is an avant-garde, ceiling-mounted suspended fireplace that brings a sculpture-like aesthetic to modern living spaces. Forged into a striking organic sphere from high-grade carbon steel, it appears to float weightlessly above the hearth while maximizing available floor space. Its prominent circular porthole glass door perfectly frames the combustion chamber, offering an immersive view of the roaring fire and radiating powerful, consistent warmth in every direction.",
+  "features": [
+    "Dramatic suspended ceiling architecture that clears floor space and creates a strong visual anchor",
+    "Striking spherical body design meticulously shaped for optimized multi-directional heat radiation",
+    "Generous circular ceramic glass viewing window for a panoramic, eye-level flame display",
+    "Fully customizable flue pipe extension engineered to adapt seamlessly to varying ceiling heights",
+    "Heavy-duty matte black thermal coating delivering long-lasting structural protection and style"
+  ],
+  "images": ["/images/products/hw1.png"]
+}

@@ -138,7 +138,7 @@ export default function Footer() {
                 +254 734 070707
               </a>
               {/* WhatsApp link (second) */}
-              <a href="https://wa.me/254748692118" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/254115265517" target="_blank" rel="noopener noreferrer"
                 style={{ display: 'flex', alignItems: 'center', gap: 10, color: 'rgba(255,255,255,0.7)', transition: 'color 0.2s' }}
                 onMouseEnter={e => (e.currentTarget.style.color = 'var(--brand)')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.7)')}>

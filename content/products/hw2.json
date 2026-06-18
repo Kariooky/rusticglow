@@ -1,0 +1,21 @@
+{
+  "name": "HW2",
+  "slug": "hw2",
+  "tagline": "Sculptural outdoor fire pit with integrated circular log storage",
+  "material": "Heavy-Duty Carbon Steel and Corten Steel",
+  "weight": "N/A",
+  "dimensions": "Customizable Circular Diameter",
+  "efficiency": "Open Fire Pit (Ambience Optimized)",
+  "roomSize": "Outdoor Patios and Decks",
+  "fuelType": "Wood Log",
+  "type": "Freestanding Outdoor Fire Pit",
+  "description": "The HW2 is an architectural masterpiece designed for luxury outdoor living spaces, patios, and decks. Forged from high-grade carbon steel with an inner Corten steel combustion ring, its unique spiral-tier geometry doubles as both a striking focal campfire and a highly functional storage solution. The continuous curved lower compartment keeps a large supply of firewood dry, organized, and readily accessible, while the expansive flat top surfaces provide a sleek, minimalist silhouette for upscale open-air entertaining.",
+  "features": [
+    "Innovative modular spiral design creating a stunning sculptural centerpiece for outdoor spaces",
+    "Expansive wrap-around lower open base offering high-capacity, integrated log storage",
+    "Dual-material construction blending durable black-coated steel with a rustic Corten liner",
+    "Generous flat-top perimeter design serving as an elegant architectural surround",
+    "Low-slung profile engineered for stable freestanding placement on wooden decks and patios"
+  ],
+  "images": ["/images/products/hw2.png"]
+}

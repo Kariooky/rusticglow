@@ -82,7 +82,7 @@ export default function CatalogueClient({ products }: { products: Product[] }) {
             Send us a message and we&apos;ll help you size and select the right one.
           </p>
           <a
-            href={`https://wa.me/254748692118?text=${encodeURIComponent("Hi Rustic Glow! I need help choosing the right woodstove for my space. Can you help?")}`}
+            href={`https://wa.me/254115265517?text=${encodeURIComponent("Hi Rustic Glow! I need help choosing the right woodstove for my space. Can you help?")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-wa"
