@@ -44,7 +44,7 @@ export default function InstallationEstimator({ productName, productPrice, produ
   const pipeTotal   = Math.round(perMetre * len)
   const elbowTotal  = Math.round(RATES.elbow   * MARKUP * elb)
   const capTotal    = Math.round(RATES.rainCap * MARKUP * caps)
-  const labourTotal = Math.round(RATES.labour  * MARKUP)
+  const labourTotal = RATES.labour
   const installTotal = pipeTotal + elbowTotal + capTotal + labourTotal
   const grandTotal   = stovePrice ? stovePrice + installTotal : null
 
