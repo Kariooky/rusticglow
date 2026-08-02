@@ -2,6 +2,7 @@
   "name": "RG202619",
   "slug": "rg202619",
   "tagline": "Elegant arched design with efficient warmth and convenient storage",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "62kg",
   "dimensions": "H 970mm x W 460mm x D 410mm",
@@ -17,5 +18,7 @@
     "Adjustable primary and secondary air intake sliders",
     "Heat-resistant ceramic glass with an air-wash system"
   ],
-  "images": ["/images/products/RG202619.png"]
+  "images": [
+    "/images/products/RG202619.png"
+  ]
 }

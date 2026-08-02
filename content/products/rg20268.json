@@ -1,7 +1,8 @@
 {
   "name": "RG20268",
   "slug": "rg20268",
-   "tagline": "Traditional cast iron artistry with advanced thermal efficiency",
+  "tagline": "Traditional cast iron artistry with advanced thermal efficiency",
+  "price": "KES 180,000",
   "material": "Cast Iron",
   "weight": "118kg",
   "dimensions": "H 680mm x W 580mm x D 440mm",
@@ -17,5 +18,7 @@
     "Self-cleaning air-wash system for clear glass maintenance",
     "Reinforced internal grate with easy-access ash pan"
   ],
-  "images": ["/images/products/RG20268.jpeg"]
+  "images": [
+    "/images/products/RG20268.jpeg"
+  ]
 }

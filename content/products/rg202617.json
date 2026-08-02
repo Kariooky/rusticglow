@@ -2,6 +2,7 @@
   "name": "RG202617",
   "slug": "rg202617",
   "tagline": "Modern multi-fuel efficiency with a classic built-in oven",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "105kg",
   "dimensions": "H 1005mm x W 585mm x D 515mm",
@@ -17,5 +18,7 @@
     "Large easy-access ash pan for simplified maintenance",
     "Spacious lower wood storage compartment"
   ],
-  "images": ["/images/products/RG202617.jpeg"]
+  "images": [
+    "/images/products/RG202617.jpeg"
+  ]
 }

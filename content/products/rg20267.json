@@ -1,7 +1,8 @@
 {
   "name": "RG20267",
   "slug": "rg20267",
- "tagline": "Traditional cast iron resilience with a wide-view flame display",
+  "tagline": "Traditional cast iron resilience with a wide-view flame display",
+  "price": "KES 180,000",
   "material": "Cast Iron",
   "weight": "115kg",
   "dimensions": "H 630mm x W 630mm x D 400mm",
@@ -17,5 +18,7 @@
     "Integrated air-wash system to maintain glass clarity",
     "Easy-access removable ash pan with a dedicated secondary door"
   ],
-  "images": ["/images/products/RG20267.jpeg"]
+  "images": [
+    "/images/products/RG20267.jpeg"
+  ]
 }

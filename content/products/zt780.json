@@ -2,6 +2,7 @@
   "name": "ZT780",
   "slug": "zt780",
   "tagline": "Elegant arched design with powerful high-mass heating capabilities",
+  "price": "KES 210,000",
   "material": "Cast Iron",
   "weight": "170kg",
   "dimensions": "H 810mm x W 730mm x D 470mm",
@@ -17,5 +18,7 @@
     "Dual circular primary air control knobs on the front for adjustable burning",
     "Versatile configuration options supporting both top and rear flue outlets"
   ],
-  "images": ["/images/products/zt780.jpg"]
+  "images": [
+    "/images/products/zt780.jpg"
+  ]
 }

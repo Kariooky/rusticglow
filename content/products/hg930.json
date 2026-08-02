@@ -2,6 +2,7 @@
   "name": "HG930 (Double Sided Version)",
   "slug": "hg930",
   "tagline": "Expansive double-sided fire view with architectural wide-format storage",
+  "price": "KES 230,000",
   "material": "Cast Iron",
   "weight": "185kg",
   "dimensions": "H 630mm x W 930mm x D 450mm",
@@ -17,5 +18,7 @@
     "Dual-sliding air intake controls on the front trim for balanced precision combustion",
     "Large-diameter top flue outlet optimized for superior airflow in wide-format stoves"
   ],
-  "images": ["/images/products/hg930.jpg"]
+  "images": [
+    "/images/products/hg930.jpg"
+  ]
 }

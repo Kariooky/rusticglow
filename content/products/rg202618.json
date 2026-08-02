@@ -2,6 +2,7 @@
   "name": "RG202618",
   "slug": "rg202618",
   "tagline": "Efficient secondary combustion for a clean, low-smoke outdoor experience",
+  "price": "KES 38,000",
   "material": "Stainless Steel",
   "weight": "8.16 kg (18 lbs)",
   "dimensions": "H 389mm x W 508mm x D 508mm (15.3\" x 20\" x 20\")",
@@ -17,5 +18,7 @@
     "Sturdy support legs for heat protection on various surfaces",
     "Portable design includes a dedicated carrying bag"
   ],
-  "images": ["/images/products/rg202618.jpg"]
+  "images": [
+    "/images/products/rg202618.jpg"
+  ]
 }

@@ -2,6 +2,7 @@
   "name": "ZT750",
   "slug": "zt750",
   "tagline": "Panoramic modern firebox with an architectural log store base",
+  "price": "KES 230,000",
   "material": "Cast Iron",
   "weight": "169kg",
   "dimensions": "H 725mm x W 750mm x D 430mm",
@@ -17,5 +18,7 @@
     "Integrated structural cooling fins along the firebox chassis to optimize airflow",
     "Wide-format design perfectly suited for placement over custom plinths or log stores"
   ],
-  "images": ["/images/products/zt750.jpg"]
+  "images": [
+    "/images/products/zt750.jpg"
+  ]
 }

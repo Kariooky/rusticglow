@@ -2,6 +2,7 @@
   "name": "ZT710",
   "slug": "zt710",
   "tagline": "Classic double-door styling with expansive multi-sided views",
+  "price": "KES 230,000",
   "material": "Cast Iron",
   "weight": "165kg",
   "dimensions": "H 770mm x W 710mm x D 500mm",
@@ -17,5 +18,7 @@
     "Elegant cabriole-style cast iron legs elevating the firebox beautifully",
     "Integrated bottom slide-out ash drawer and dedicated top flue outlet"
   ],
-  "images": ["/images/products/zt710.jpg"]
+  "images": [
+    "/images/products/zt710.jpg"
+  ]
 }

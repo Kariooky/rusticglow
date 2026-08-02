@@ -2,6 +2,7 @@
   "name": "MI683",
   "slug": "mi683",
   "tagline": "Sleek inset fireplace with a bold glass frame trim",
+  "price": "KES 150,000",
   "material": "Cast Iron",
   "weight": "85kg",
   "dimensions": "H 593mm x W 683mm x D 403mm",
@@ -17,5 +18,7 @@
     "Sleek vertical brushed metal handle for smooth and secure door operation",
     "Dedicated top flue outlet configuration optimized for standard chimney setups"
   ],
-  "images": ["/images/products/mi683.jpg"]
+  "images": [
+    "/images/products/mi683.jpg"
+  ]
 }

@@ -2,6 +2,7 @@
   "name": "RG202615",
   "slug": "rg202615",
   "tagline": "Curved steel elegance with soft radiant warmth",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "145kg",
   "dimensions": "H 1180mm x W 520mm x D 460mm",
@@ -17,5 +18,7 @@
     "High-efficiency clean burn system",
     "Easy-access ash collection area"
   ],
-  "images": ["/images/products/RG202615.jpeg"]
+  "images": [
+    "/images/products/RG202615.jpeg"
+  ]
 }

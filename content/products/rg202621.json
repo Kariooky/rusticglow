@@ -2,6 +2,7 @@
   "name": "RG202621",
   "slug": "rg202621",
   "tagline": "Industrial-strength heating in a compact freestanding design",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "84kg",
   "dimensions": "H 820mm x W 480mm x D 450mm",
@@ -17,5 +18,7 @@
     "Air-wash system to keep the ceramic glass clear of soot",
     "Removable internal ash drawer for clean and easy disposal"
   ],
-  "images": ["/images/products/RG202621.jpeg"]
+  "images": [
+    "/images/products/RG202621.jpeg"
+  ]
 }

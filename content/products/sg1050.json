@@ -2,6 +2,7 @@
   "name": "SG1050 (Double Sided Rotation)",
   "slug": "sg1050",
   "tagline": "Grand double-sided viewing panel on an innovative rotating pedestal base",
+  "price": "KES 250,000",
   "material": "Thickened Steel + Cast Iron",
   "weight": "N/A",
   "dimensions": "H 1005mm x W 1050mm x D 450mm",
@@ -17,5 +18,7 @@
     "Sleek architectural black frame trim that aligns beautifully with ultra-modern home layouts",
     "Substantial 200mm diameter top flue pipe configuration engineered for maximum drafting efficiency"
   ],
-  "images": ["/images/products/sg1050.jpg"]
+  "images": [
+    "/images/products/sg1050.jpg"
+  ]
 }

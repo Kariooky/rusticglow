@@ -2,6 +2,7 @@
   "name": "OV760",
   "slug": "ov760",
   "tagline": "Premium multi-functional wood stove with an integrated baking oven",
+  "price": "KES 230,000",
   "material": "Thickened Steel and Cast Iron",
   "weight": "215kg",
   "dimensions": "H 1200mm x W 760mm x D 450mm",
@@ -17,5 +18,7 @@
     "Convenient low-profile open base designed for clean and dry log storage",
     "Sturdy straight top flue configuration optimized for superior drafting performance"
   ],
-  "images": ["/images/products/ov760.jpg"]
+  "images": [
+    "/images/products/ov760.jpg"
+  ]
 }

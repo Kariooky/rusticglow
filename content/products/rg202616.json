@@ -2,6 +2,7 @@
   "name": "RG202616",
   "slug": "rg202616",
   "tagline": "Traditional craftsmanship meets high-output central heating",
+  "price": "KES 200,000",
   "material": "Cast Iron",
   "weight": "168kg",
   "dimensions": "H 850mm x W 1070mm x D 600mm",
@@ -17,5 +18,7 @@
     "Primary, secondary, and oven damper controls for precision heat",
     "Spacious bottom drawer for log storage or warming"
   ],
-  "images": ["/images/products/RG202616.jpeg"]
+  "images": [
+    "/images/products/RG202616.jpeg"
+  ]
 }

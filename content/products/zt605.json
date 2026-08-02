@@ -2,6 +2,7 @@
   "name": "ZT605",
   "slug": "zt605",
   "tagline": "Sleek vertical heating with integrated log storage",
+  "price": "KES 180,000",
   "material": "Cast Iron",
   "weight": "93kg",
   "dimensions": "H 803mm x W 440mm x D 348mm",
@@ -17,5 +18,7 @@
     "Dual configuration allowing for both top and rear flue connections",
     "User-adjustable primary air control lever for precision combustion"
   ],
-  "images": ["/images/products/zt605.jpg"]
+  "images": [
+    "/images/products/zt605.jpg"
+  ]
 }

@@ -1,7 +1,8 @@
 {
   "name": "RG20261",
   "slug": "rg20261",
-   "tagline": "Compact cast iron power for cozy interior warmth",
+  "tagline": "Compact cast iron power for cozy interior warmth",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "63kg",
   "dimensions": "H 580mm x W 400mm x D 330mm",
@@ -17,5 +18,7 @@
     "Removable ash pan and grate for effortless cleaning",
     "Compact footprint with high-temperature resistant finish"
   ],
-  "images": ["/images/products/RG20261.jpeg"]
+  "images": [
+    "/images/products/RG20261.jpeg"
+  ]
 }

@@ -2,6 +2,7 @@
   "name": "HW1",
   "slug": "hw1",
   "tagline": "Iconic spherical suspended design with a captivating porthole fire view",
+  "price": "KES 580,000",
   "material": "Premium Carbon Steel",
   "weight": "N/A",
   "dimensions": "Customizable to fit ceiling height",
@@ -17,5 +18,7 @@
     "Fully customizable flue pipe extension engineered to adapt seamlessly to varying ceiling heights",
     "Heavy-duty matte black thermal coating delivering long-lasting structural protection and style"
   ],
-  "images": ["/images/products/hw1.png"]
+  "images": [
+    "/images/products/hw1.png"
+  ]
 }

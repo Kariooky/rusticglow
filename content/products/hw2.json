@@ -2,6 +2,7 @@
   "name": "HW2",
   "slug": "hw2",
   "tagline": "Eco-friendly multi-fuel fire pit table for premium outdoor cooking and entertainment",
+  "price": "KES 250,000",
   "material": "Galvanized Stainless Steel",
   "weight": "N/A",
   "dimensions": "Diameter 1200mm",
@@ -17,5 +18,7 @@
     "Multi-functional architecture optimized for garden parties, barbecues, and table use",
     "Premium outdoor package including decorative pebbles and dedicated support feet"
   ],
-  "images": ["/images/products/hw2.png"]
+  "images": [
+    "/images/products/hw2.png"
+  ]
 }

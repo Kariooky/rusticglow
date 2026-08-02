@@ -2,6 +2,7 @@
   "name": "RG20269",
   "slug": "rg20269",
   "tagline": "Modern multi-functional warmth with a spacious culinary view",
+  "price": "KES 210,000",
   "material": "Cast Iron",
   "weight": "165kg",
   "dimensions": "H 1200mm x W 1000mm x D 550mm",
@@ -17,5 +18,7 @@
     "High-efficiency secondary combustion system",
     "Premium matte black heat-resistant finish"
   ],
-  "images": ["/images/products/RG20269.jpeg"]
+  "images": [
+    "/images/products/RG20269.jpeg"
+  ]
 }

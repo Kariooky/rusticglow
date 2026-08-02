@@ -2,6 +2,7 @@
   "name": "CX7",
   "slug": "cx7",
   "tagline": "Iconic suspended fireplace delivering 360-degree architectural warmth",
+  "price": "KES 580,000",
   "material": "Heavy DutySteel",
   "weight": "50kg - 120kg (Varies by custom configuration)",
   "dimensions": "Fully customizable to fit ceiling height",
@@ -17,5 +18,7 @@
     "Substantial heating capacity engineered to efficiently warm large, open-concept areas",
     "Versatile architectural layout ideally suited for luxury villas, sunrooms, and boutique cafes"
   ],
-  "images": ["/images/products/cx7.png"]
+  "images": [
+    "/images/products/cx7.png"
+  ]
 }

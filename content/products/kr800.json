@@ -2,6 +2,7 @@
   "name": "KR800",
   "slug": "kr800",
   "tagline": "Modern minimalist pedestal stove with an ultra-wide glass viewing pane",
+  "price": "KES 230,000",
   "material": "Thickened Steel and Cast Iron",
   "weight": "N/A",
   "dimensions": "H 899mm x W 800mm x D 420mm",
@@ -17,5 +18,7 @@
     "Premium internal combustion chamber insulation maximizing steady thermal radiation",
     "Sleek vertical metallic door handle providing smooth, airtight tactile operation"
   ],
-  "images": ["/images/products/kr800.jpg"]
+  "images": [
+    "/images/products/kr800.jpg"
+  ]
 }

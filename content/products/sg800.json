@@ -2,6 +2,7 @@
   "name": "SG800",
   "slug": "sg800",
   "tagline": "Elegant modern fireplace with an extra-wide architectural log store base",
+  "price": "KES 180,000",
   "material": "Cast Iron",
   "weight": "142kg",
   "dimensions": "H 615mm x W 800mm x D 420mm",
@@ -17,5 +18,7 @@
     "Minimalist front door assembly with an integrated sleek vertical metal handle",
     "Centered top flue outlet configuration optimized for elegant, straight chimney setups"
   ],
-  "images": ["/images/products/sg800.jpg"]
+  "images": [
+    "/images/products/sg800.jpg"
+  ]
 }

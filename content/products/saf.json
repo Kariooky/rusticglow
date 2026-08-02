@@ -2,6 +2,7 @@
   "name": "Smart Ethanol Fireplace",
   "slug": "saf",
   "tagline": "Intelligent ventless ribbon fire with remote operation and extended burn time",
+  "price": "Price on Request",
   "material": "Stainless Steel",
   "weight": "12-50kg (Varies by custom length)",
   "dimensions": "Fully customizable length",
@@ -17,5 +18,7 @@
     "Eco-friendly ventless operation requiring no chimney, utilities, or external venting",
     "Premium stainless steel chassis available in sophisticated silver or black finishes"
   ],
-  "images": ["/images/products/saf.png"]
+  "images": [
+    "/images/products/saf.png"
+  ]
 }

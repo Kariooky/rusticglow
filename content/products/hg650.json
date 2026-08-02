@@ -2,6 +2,7 @@
   "name": "HG650 ",
   "slug": "hg650",
   "tagline": "Modern linear profile with integrated open log storage",
+  "price": "KES 200,000",
   "material": "Cast Iron",
   "weight": "150kg",
   "dimensions": "H 810mm x W 650mm x D 400mm",
@@ -17,5 +18,7 @@
     "Upgraded user interface with multi-slot sliding air intake control dials",
     "Straight top flue outlet configuration engineered for powerful draught efficiency"
   ],
-  "images": ["/images/products/hg650.jpg"]
+  "images": [
+    "/images/products/hg650.jpg"
+  ]
 }

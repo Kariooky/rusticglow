@@ -2,6 +2,7 @@
   "name": "VD800",
   "slug": "vd800",
   "tagline": "Architectural wall-hung design featuring a three-sided panoramic fire view",
+  "price": "KES 250,000",
   "material": "Cast Iron",
   "weight": "152kg",
   "dimensions": "H 565mm x W 800mm x D 450mm",
@@ -17,5 +18,7 @@
     "Sleek floating profile that optimizes floor footprint and accentuates modern architecture",
     "Seamless top flue outlet connection designed for clean, vertical chimney installations"
   ],
-  "images": ["/images/products/vd800.jpg"]
+  "images": [
+    "/images/products/vd800.jpg"
+  ]
 }

@@ -1,5 +1,6 @@
 import { getAllProductSlugs, getProductBySlug } from '@/lib/products'
 import { productEnquiryLink } from '@/lib/whatsapp'
+import InstallationEstimator from '@/components/InstallationEstimator'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -140,6 +141,13 @@ export default async function ProductPage({ params }: Props) {
                   ))}
                 </ul>
               </div>
+
+              {/* Installation Estimator */}
+              <InstallationEstimator
+                productName={product.name}
+                productPrice={product.price}
+                productSlug={product.slug}
+              />
 
               {/* Price + CTA */}
               <div style={{

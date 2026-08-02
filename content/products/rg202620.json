@@ -2,6 +2,7 @@
   "name": "RG202620",
   "slug": "rg202620",
   "tagline": "Elegant corner-fit efficiency with natural stone character",
+  "price": "KES 130,000",
   "material": "Cast Iron",
   "weight": "193kg",
   "dimensions": "H 1040mm x W 645mm x D 565mm",
@@ -17,5 +18,7 @@
     "Energy efficiency class A+",
     "Integrated open log storage base"
   ],
-  "images": ["/images/products/RG202620.png"]
+  "images": [
+    "/images/products/RG202620.png"
+  ]
 }

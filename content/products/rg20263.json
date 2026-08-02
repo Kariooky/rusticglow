@@ -1,7 +1,8 @@
 {
   "name": "RG20263",
   "slug": "rg20263",
- "tagline": "Architectural cast iron warmth with integrated wood storage",
+  "tagline": "Architectural cast iron warmth with integrated wood storage",
+  "price": "KES 200,000",
   "material": "Cast Iron",
   "weight": "215kg",
   "dimensions": "H 1150mm x W 950mm x D 500mm",
@@ -17,5 +18,7 @@
     "Precision-controlled airwash system for clear glass maintenance",
     "High-efficiency secondary combustion and overnight burn capability"
   ],
-  "images": ["/images/products/RG20263.jpeg"]
+  "images": [
+    "/images/products/RG20263.jpeg"
+  ]
 }
