@@ -65,7 +65,7 @@ export default function InstallationEstimator({ productName, productPrice, produ
     `Could you confirm availability and provide a formal quote?`,
   ].filter(Boolean).join('\n')
 
-  const waLink = `https://wa.me/254748692118?text=${encodeURIComponent(waMessage)}`
+  const waLink = `https://wa.me/254115265517?text=${encodeURIComponent(waMessage)}`
 
   const lineItems = [
     { label: `Blackpipe, rolling, seaming & painting (${len}m)`, amount: pipeTotal },
