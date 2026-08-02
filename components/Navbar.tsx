@@ -21,6 +21,7 @@ export default function Navbar() {
     { href: '/catalogue', label: 'Catalogue' },
     { href: '/services', label: 'Services' },
     { href: '/gallery', label: 'Gallery' },
+    { href: '/calculator', label: 'Calculator' },
   ]
 
   return (
