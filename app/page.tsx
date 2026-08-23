@@ -77,7 +77,7 @@ export default function HomePage() {
               fontSize: '1.1rem', color: 'rgba(255,255,255,0.65)',
               maxWidth: 480, lineHeight: 1.75, marginBottom: '2.5rem',
             }}>
-              We import, install and maintain premium woodstoves across East Africa. One call — we handle everything.
+              We import, install and maintain premium woodstoves across East Africa.
             </p>
 
             <div className="hero-fade-4" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
