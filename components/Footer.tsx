@@ -23,7 +23,7 @@ export default function Footer() {
               Rustic<span style={{ color: 'var(--brand)' }}>Glow</span>
             </div>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.7, maxWidth: 260, marginBottom: '1.25rem' }}>
-              East Africa&apos;s trusted source for premium woodstoves. We import, install and maintain — so you just enjoy the warmth.
+              East Africa&apos;s trusted source for premium woodstoves. We import, install and maintain. You just enjoy the warmth.
             </p>
             <a href={generalEnquiryLink()} target="_blank" rel="noopener noreferrer"
               className="btn-wa" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
