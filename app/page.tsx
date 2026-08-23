@@ -94,7 +94,7 @@ export default function HomePage() {
             {/* Trust badges */}
             <div className="hero-fade-5 hero-badges" style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', marginTop: '3rem' }}>
               {[
-                { icon: <EuropeIcon />, text: 'European imports' },
+                { icon: <EuropeIcon />, text: 'Curated imports' },
                 { icon: <WrenchIcon />, text: 'Professional installation' },
                 { icon: <SpannerIcon />, text: 'Annual maintenance' },
                 { icon: <PinIcon />, text: 'Nairobi & upcountry' },
