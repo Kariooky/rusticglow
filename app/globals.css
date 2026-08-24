@@ -128,6 +128,72 @@ h1, h2, h3, h4 {
  line-height: 1.7;
 }
 
+/* Inner page headers */
+.page-header {
+  background: var(--dark-wood);
+  padding-top: calc(var(--nav-h) + 3rem);
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(253, 119, 0, 0.15);
+}
+.page-header--compact {
+  padding-top: calc(var(--nav-h) + 1.25rem);
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(253, 119, 0, 0.12);
+}
+.page-header-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+.page-header-subtitle {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 1rem;
+  max-width: 520px;
+}
+
+/* Orange closing banner */
+.cta-section { background: var(--brand); }
+.cta-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.cta-banner-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+.cta-banner-copy {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+}
+
+/* Inverted WhatsApp button (on orange) */
+.btn-invert {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: var(--brand);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.85rem 1.8rem;
+  border-radius: 4px;
+  border: none;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-invert:hover { background: var(--warmth); transform: translateY(-1px); }
+.btn-invert:active { transform: translateY(0); }
+.btn-invert svg { width: 18px; height: 18px; flex-shrink: 0; }
+
 /* Flame animations */
 @keyframes fadeUp {
  from { opacity: 0; transform: translateY(20px); }
@@ -221,7 +287,7 @@ h1, h2, h3, h4 {
 
   /* CTA banner — stack vertically */
   .cta-banner {
-    flex-direction: column !important;
+    flex-direction: column;
     text-align: center;
   }
 }

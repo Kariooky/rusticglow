@@ -1,5 +1,7 @@
 import React from 'react'
 import { serviceEnquiryLink, generalEnquiryLink } from '@/lib/whatsapp'
+import PageHeader from '@/components/PageHeader'
+import CtaBanner from '@/components/CtaBanner'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -105,29 +107,11 @@ const services: Service[] = [
 export default function ServicesPage() {
   return (
     <>
-      {/* Header */}
-      <div style={{
-        background: 'var(--dark-wood)',
-        paddingTop: 'calc(var(--nav-h) + 3rem)',
-        paddingBottom: '3rem',
-        borderBottom: '1px solid rgba(253,119,0,0.15)',
-      }}>
-        <div className="container">
-          <p style={{
-            fontFamily: 'var(--font-body)', fontSize: '0.75rem', fontWeight: 700,
-            letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--brand)',
-            marginBottom: '0.75rem',
-          }}>What we do</p>
-          <h1 style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 5vw, 3.2rem)',
-            color: '#fff', marginBottom: '0.75rem',
-          }}>Our Services</h1>
-          <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: '1rem', maxWidth: 520 }}>
-            We&apos;re not just a shop — we&apos;re a full-service operation. From installing your first stove to keeping it running clean a decade later.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        eyebrow="What we do"
+        title="Our Services"
+        subtitle="We're not just a shop — we're a full-service operation. From installing your first stove to keeping it running clean a decade later."
+      />
 
       {/* Sticky section nav */}
       <div style={{
@@ -256,36 +240,14 @@ export default function ServicesPage() {
         </section>
       ))}
 
-      {/* Bottom CTA */}
-      <section className="section-sm" style={{ background: 'var(--brand)' }}>
-        <div className="container" style={{
-          display: 'flex', alignItems: 'center',
-          justifyContent: 'space-between', flexWrap: 'wrap', gap: '1.5rem',
-        }}>
-          <div>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.3rem, 3vw, 1.8rem)', color: '#fff', marginBottom: '0.4rem' }}>
-              Book a service or ask a question
-            </h2>
-            <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.92rem' }}>
-              We respond on WhatsApp within the hour during business hours.
-            </p>
-          </div>
-          <a
-            href={generalEnquiryLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: 10,
-              background: '#fff', color: 'var(--brand)',
-              fontFamily: 'var(--font-body)', fontWeight: 700, fontSize: '0.95rem',
-              padding: '0.85rem 1.8rem', borderRadius: 4,
-              whiteSpace: 'nowrap', textDecoration: 'none',
-            }}
-          >
-            <WAIcon color="var(--brand)" /> Message us now
-          </a>
-        </div>
-      </section>
+      <CtaBanner
+        title="Book a service or ask a question"
+        copy="We respond on WhatsApp within the hour during business hours."
+      >
+        <a href={generalEnquiryLink()} target="_blank" rel="noopener noreferrer" className="btn-invert">
+          <WAIcon /> Message us now
+        </a>
+      </CtaBanner>
     </>
   )
 }

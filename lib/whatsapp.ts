@@ -18,3 +18,7 @@ export function serviceEnquiryLink(service: string): string {
 export function generalEnquiryLink(): string {
   return waLink("Hi Rustic Glow! I'd like to learn more about your woodstoves and services.")
 }
+
+export function sizingEnquiryLink(): string {
+  return waLink("Hi Rustic Glow! I need help choosing the right woodstove for my space. Can you help?")
+}

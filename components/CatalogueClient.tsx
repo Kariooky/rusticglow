@@ -1,6 +1,8 @@
 'use client'
 import { useState } from 'react'
 import ProductCard from '@/components/ProductCard'
+import CtaBanner from '@/components/CtaBanner'
+import { sizingEnquiryLink } from '@/lib/whatsapp'
 import type { Product } from '@/lib/products'
 
 export default function CatalogueClient({ products }: { products: Product[] }) {
@@ -63,35 +65,14 @@ export default function CatalogueClient({ products }: { products: Product[] }) {
         </div>
       </section>
 
-      {/* Bottom CTA */}
-      <section style={{
-        background: 'var(--parchment)',
-        padding: '3rem 0',
-        borderTop: '1px solid var(--birch)',
-      }}>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <p style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: '1.4rem',
-            color: 'var(--dark-wood)',
-            marginBottom: '0.5rem',
-          }}>
-            Not sure which stove fits your space?
-          </p>
-          <p style={{ color: 'var(--ash)', marginBottom: '1.5rem', fontSize: '0.95rem' }}>
-            Send us a message and we&apos;ll help you size and select the right one.
-          </p>
-          <a
-            href={`https://wa.me/254115265517?text=${encodeURIComponent("Hi Rustic Glow! I need help choosing the right woodstove for my space. Can you help?")}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-wa"
-            style={{ fontSize: '0.95rem' }}
-          >
-            <WAIcon /> Get sizing advice
-          </a>
-        </div>
-      </section>
+      <CtaBanner
+        title="Not sure which stove fits your space?"
+        copy="Send us a message and we'll help you size and select the right one."
+      >
+        <a href={sizingEnquiryLink()} target="_blank" rel="noopener noreferrer" className="btn-invert">
+          <WAIcon /> Get sizing advice
+        </a>
+      </CtaBanner>
     </>
   )
 }

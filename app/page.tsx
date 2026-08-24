@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getAllProducts } from '@/lib/products'
 import { generalEnquiryLink, serviceEnquiryLink } from '@/lib/whatsapp'
 import ProductCard from '@/components/ProductCard'
+import CtaBanner from '@/components/CtaBanner'
 
 export default function HomePage() {
   const products = getAllProducts().slice(0, 3)
@@ -195,27 +196,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CTA BANNER ── */}
-      <section className="section-sm" style={{ background: 'var(--brand)' }}>
-        <div className="container cta-banner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1.5rem' }}>
-          <div>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', color: '#fff', marginBottom: '0.4rem' }}>
-              Ready to bring the warmth home?
-            </h2>
-            <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.95rem' }}>Message us and we&apos;ll help you pick the right stove for your space.</p>
-          </div>
-          <a href={generalEnquiryLink()} target="_blank" rel="noopener noreferrer"
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: 10,
-              background: '#fff', color: 'var(--brand)',
-              fontFamily: 'var(--font-body)', fontWeight: 700, fontSize: '0.95rem',
-              padding: '0.85rem 1.8rem', borderRadius: 4,
-              whiteSpace: 'nowrap', textDecoration: 'none',
-            }}>
-            <WAIcon color="var(--brand)" /> Chat on WhatsApp
-          </a>
-        </div>
-      </section>
+      <CtaBanner
+        title="Ready to bring the warmth home?"
+        copy="Message us and we'll help you pick the right stove for your space."
+      >
+        <a href={generalEnquiryLink()} target="_blank" rel="noopener noreferrer" className="btn-invert">
+          <WAIcon /> Chat on WhatsApp
+        </a>
+      </CtaBanner>
     </>
   )
 }

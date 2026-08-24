@@ -1,6 +1,7 @@
 import { getAllProductSlugs, getProductBySlug } from '@/lib/products'
 import { productEnquiryLink } from '@/lib/whatsapp'
 import InstallationEstimator from '@/components/InstallationEstimator'
+import PageHeader from '@/components/PageHeader'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -32,23 +33,15 @@ export default async function ProductPage({ params }: Props) {
 
   return (
     <>
-      {/* Breadcrumb */}
-      <div style={{
-        background: 'var(--dark-wood)',
-        paddingTop: 'calc(var(--nav-h) + 1.25rem)',
-        paddingBottom: '1.25rem',
-        borderBottom: '1px solid rgba(253,119,0,0.12)',
-      }}>
-        <div className="container">
-          <nav style={{ display: 'flex', gap: 8, fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', flexWrap: 'wrap' }}>
-            <Link href="/" style={{ color: 'rgba(255,255,255,0.4)' }}>Home</Link>
-            <span>/</span>
-            <Link href="/catalogue" style={{ color: 'rgba(255,255,255,0.4)' }}>Catalogue</Link>
-            <span>/</span>
-            <span style={{ color: 'var(--brand)' }}>{product.name}</span>
-          </nav>
-        </div>
-      </div>
+      <PageHeader compact>
+        <nav style={{ display: 'flex', gap: 8, fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', flexWrap: 'wrap' }}>
+          <Link href="/" style={{ color: 'rgba(255,255,255,0.4)' }}>Home</Link>
+          <span>/</span>
+          <Link href="/catalogue" style={{ color: 'rgba(255,255,255,0.4)' }}>Catalogue</Link>
+          <span>/</span>
+          <span style={{ color: 'var(--brand)' }}>{product.name}</span>
+        </nav>
+      </PageHeader>
 
       {/* Main product section */}
       <section className="section" style={{ background: 'var(--canvas)' }}>
