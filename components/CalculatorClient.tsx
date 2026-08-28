@@ -67,7 +67,7 @@ export default function CalculatorClient({ products }: { products: Product[] }) 
     { label: `Blackpipe, rolling, seaming & painting (${len}m)`, amount: pipeTotal,   show: len > 0 },
     { label: `Elbows / bends (×${elb})`,                          amount: elbowTotal,  show: elb > 0 },
     { label: `Rain caps (×${caps})`,                              amount: capTotal,    show: caps > 0 },
-    { label: 'Labour (flat)',                                      amount: labourTotal, show: true     },
+    { label: 'Labour (variable)',                                      amount: labourTotal, show: true     },
   ]
 
   return (
@@ -252,7 +252,7 @@ export default function CalculatorClient({ products }: { products: Product[] }) 
 
       {/* Disclaimer */}
       <p style={{ fontSize: '0.75rem', color: 'var(--ash)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-        * Includes 30% markup on materials and fabrication. Labour is a flat rate.
+        * Labour is a variable rate.
         Actual cost may vary based on site conditions, flue routing complexity, and location.
         VAT inclusive. Stove price is separate from installation.
       </p>
