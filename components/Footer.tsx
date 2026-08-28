@@ -143,7 +143,7 @@ export default function Footer() {
                 onMouseEnter={e => (e.currentTarget.style.color = 'var(--brand)')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.7)')}>
                 <span style={{ color: 'var(--brand)', flexShrink: 0 }}><WAIcon /></span>
-                +254 748 692 118
+                +254 115 265 517
               </a>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                 <span style={{ color: 'var(--brand)', flexShrink: 0 }}><ClockIcon /></span>

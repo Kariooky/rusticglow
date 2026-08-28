@@ -229,7 +229,7 @@ export default function InstallationEstimator({ productName, productPrice, produ
 
           {/* Disclaimer */}
           <p style={{ fontSize: '0.75rem', color: 'var(--ash)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
-            * Includes 30% markup on materials and fabrication. Labour is a flat rate.
+            * Labour is a variable rate.
             Actual cost may vary based on site conditions, flue routing complexity, and location.
             VAT inclusive.
           </p>
