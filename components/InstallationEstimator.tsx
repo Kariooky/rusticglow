@@ -71,7 +71,7 @@ export default function InstallationEstimator({ productName, productPrice, produ
     { label: `Blackpipe, rolling, seaming & painting (${len}m)`, amount: pipeTotal },
     { label: `Elbows / bends (×${elb})`,                          amount: elbowTotal },
     { label: `Rain caps (×${caps})`,                              amount: capTotal },
-    { label: 'Labour (flat)',                                      amount: labourTotal },
+    { label: 'Labour (variable)',                                      amount: labourTotal },
   ]
 
   return (
