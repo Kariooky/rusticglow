@@ -151,13 +151,13 @@ export default async function ProductPage({ params }: Props) {
               }}>
                 <div>
                   <p style={{ fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--ash)', fontWeight: 700, marginBottom: 4 }}>
-                    Price (installed)
+                    Price 
                   </p>
                   <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', fontWeight: 600, color: 'var(--dark-wood)', lineHeight: 1 }}>
                     {product.price}
                   </p>
                   <p style={{ fontSize: '0.75rem', color: 'var(--ash)', marginTop: 4 }}>
-                    Installation included · VAT applicable
+                    Installation not included · VAT applicable
                   </p>
                 </div>
                 <a href={waLink} target="_blank" rel="noopener noreferrer"
