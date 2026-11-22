@@ -6,7 +6,7 @@ import CtaBanner from '@/components/CtaBanner'
 import { generalEnquiryLink } from '@/lib/whatsapp'
 
 export const metadata: Metadata = {
-  title: 'Gallery | Rustic Glow Kenya',
+  title: 'Gallery | Firefly Kenya',
   description: 'Photos of our woodstove installations, chimney work and maintenance across Kenya.',
 }
 
@@ -64,7 +64,7 @@ export default function GalleryPage() {
                 }}>
                   <img
                     src={src}
-                    alt={`Rustic Glow installation ${i + 1}`}
+                    alt={`Firefly installation ${i + 1}`}
                     loading="lazy"
                     className="gallery-img"
                     style={{ width: '100%', display: 'block' }}

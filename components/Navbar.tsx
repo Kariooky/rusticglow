@@ -39,8 +39,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/">
             <Image
-             src="/images/rusticglow.png"
-             alt="Rustic Glow"
+             src="/images/firefly.png"
+             alt="Firefly"
              width={160}
             height={50}
             style={{ objectFit: 'contain' }}

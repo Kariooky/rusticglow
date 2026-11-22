@@ -4,7 +4,7 @@ import PageHeader from '@/components/PageHeader'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Cost Calculator | Rustic Glow Kenya',
+  title: 'Cost Calculator | Firefly Kenya',
   description: 'Estimate your woodstove installation cost. Select a model and enter your site details for an instant quote.',
 }
 

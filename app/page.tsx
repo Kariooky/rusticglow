@@ -119,7 +119,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── WHY RUSTIC GLOW ── */}
+      {/* ── WHY FIREFLY ── */}
       <section className="section" style={{ background: 'var(--canvas)' }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>

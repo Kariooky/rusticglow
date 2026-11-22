@@ -5,14 +5,14 @@ import Footer from '@/components/Footer'
 import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
-  title: 'Rustic Glow | Woodstoves Kenya',
+  title: 'Firefly | Woodstoves Kenya',
   description: 'Premium woodstoves imported, installed and maintained across Kenya. Turn your home into a warm, rustic haven.',
   keywords: 'woodstoves kenya, cast iron stove nairobi, fireplace installation kenya, chimney cleaning nairobi',
   openGraph: {
-    title: 'Rustic Glow | Woodstoves Kenya',
+    title: 'Firefly | Woodstoves Kenya',
     description: 'Premium woodstoves imported, installed and maintained across Kenya.',
-    url: 'https://rusticglow.business',
-    siteName: 'Rustic Glow',
+    url: 'https://fire-fly.site',
+    siteName: 'Firefly Kenya',
   },
 }
 

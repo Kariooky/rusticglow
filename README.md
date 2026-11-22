@@ -1,4 +1,4 @@
-# Rustic Glow — rusticglow.business
+# Firefly — firefly.site
 
 Premium woodstoves imported, installed and maintained across Kenya.
 
@@ -55,9 +55,9 @@ Create a new `.json` file in `/content/products/`:
    - **Build output directory:** `out`
 5. Deploy
 
-## Connect your domain (rusticglow.business)
+## Connect your domain (firefly.site)
 
-1. In Cloudflare Pages → Custom domains → Add `rusticglow.business`
+1. In Cloudflare Pages → Custom domains → Add `firefly.site`
 2. In Hostinger DNS, point your domain's nameservers to Cloudflare, OR add a CNAME:
    - Name: `@` (or `www`)
    - Target: `your-project.pages.dev`
@@ -75,4 +75,4 @@ Change it there if your number ever changes — all buttons update automatically
 
 ---
 
-Built by Rustic Glow · Kenya 🔥
+Built by Firefly · Kenya 🔥
