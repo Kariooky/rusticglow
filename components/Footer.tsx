@@ -135,7 +135,7 @@ export default function Footer() {
                 onMouseEnter={e => (e.currentTarget.style.color = 'var(--brand)')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.7)')}>
                 <span style={{ color: 'var(--brand)', flexShrink: 0 }}><PhoneIcon /></span>
-                +254 734 070707
+                +254 115 265 517
               </a>
               {/* WhatsApp link (second) */}
               <a href="https://wa.me/254115265517" target="_blank" rel="noopener noreferrer"
