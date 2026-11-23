@@ -22,3 +22,27 @@ export function generalEnquiryLink(): string {
 export function sizingEnquiryLink(): string {
   return waLink("Hi Rustic Glow! I need help choosing the right woodstove for my space. Can you help?")
 }
+
+const BRAND_NAME = 'Firefly'
+
+export interface BookingDetails {
+  name: string
+  location: string
+  dateLabel: string
+  time: string
+  notes?: string
+}
+
+export function bookingLink(d: BookingDetails): string {
+  const lines = [
+    `Hi ${BRAND_NAME}! I'd like to book a flue cleaning.`,
+    '',
+    `Name: ${d.name}`,
+    `Location: ${d.location}`,
+    `Preferred date: ${d.dateLabel}`,
+    `Preferred time: ${d.time}`,
+  ]
+  if (d.notes?.trim()) lines.push(`Notes: ${d.notes.trim()}`)
+  lines.push('', 'Please confirm availability.')
+  return waLink(lines.join('\n'))
+}

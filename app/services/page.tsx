@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { serviceEnquiryLink, generalEnquiryLink } from '@/lib/whatsapp'
 import PageHeader from '@/components/PageHeader'
 import CtaBanner from '@/components/CtaBanner'
@@ -161,9 +162,15 @@ export default function ServicesPage() {
                 </div>
                 <p style={{ fontSize: '1rem', color: 'var(--ash)', fontStyle: 'italic' }}>{service.tagline}</p>
               </div>
-              <a href={serviceEnquiryLink(service.waService)} target="_blank" rel="noopener noreferrer" className="btn-wa">
-                <WAIcon /> Book {service.title}
-              </a>
+              {service.id === 'chimney-cleaning' ? (
+                <Link href="/book" className="btn-wa">
+                  <WAIcon /> Book {service.title}
+                </Link>
+              ) : (
+                <a href={serviceEnquiryLink(service.waService)} target="_blank" rel="noopener noreferrer" className="btn-wa">
+                  <WAIcon /> Book {service.title}
+                </a>
+              )}
             </div>
 
             {/* Description + image side by side */}
